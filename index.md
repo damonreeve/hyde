@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+# Introduction
+
 Bidstream Optimizer is a powerful technology to help you generate more value from your supply. Whether it's to generate more revenue, reduce opex or have greater control over supply quality Bidstream Optimizer can help you achieve those goals.
 
 While deploying Optimizer is relatively simple, a decision to introduce any technology operating at scale needs to be well planned. For this reason we have developed this tutorial to walk through the main steps that you will go through when implementing a bidstream optimization strategy.
