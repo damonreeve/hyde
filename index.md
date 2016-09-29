@@ -9,6 +9,13 @@ Bidstream Optimizer is a powerful technology to help you generate more value fro
 
 While deploying Optimizer is relatively simple, a decision to introduce any technology to a platform that operates at scale needs to be well planned. For this reason we have developed these docs to explain the core concepts behind Optimizer, the types of strategies that can be employed to to improve platform performance as well as a walk through the main steps when implementing a bidstream optimization strategy.
 
+* How Optimizer works
+* Defining an Optimizer strategy
+* Going Live with Optimizer - Onboarding Process
+* Optimizing Optimizer
+* Data Enrichment
+* Developer API
+
 There are X steps to get up and running with Bidstream Optimizer
 
 1. Define Strategy - What are you trying to achieve?
