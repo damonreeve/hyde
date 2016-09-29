@@ -1,3 +1,5 @@
+Table of Contents
+
 * Enrichment
   * How enrichment works
     * run-time workflow
