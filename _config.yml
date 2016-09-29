@@ -7,15 +7,15 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /hyde/
+title:            Bidstream Optimizer
+tagline:          'Bidstream Optimizer Documentation'
+description:      'Onboarding docs for <a href="https://authenticated.digital" target="_blank">Bidstream Optimizer</a>.'
+url:              https://damonreeve.github.io/optimizer-docs/
+baseurl:          /optimizer-docs/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Damon Reeve'
+  url:            https://github.com/damonreeve
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/damonreeve/optimizer-docs/
