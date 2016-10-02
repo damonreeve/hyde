@@ -7,7 +7,7 @@ Bidstream Optimizer is a bidstream management layer that analyzes in real time t
 
 Optimizer is designed as a pre-processor to make generalised decisioning that doesn't interfere with the specific decisioning an exchange or DSP makes.
 
-* [Built for scale](built-for-scale)
+* [Built for scale](#built-for-scale)
 * Simple implementation
 * Real-time monitoring
 * 5-Step run-time process
