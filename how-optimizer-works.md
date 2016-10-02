@@ -7,12 +7,32 @@ Bidstream Optimizer is a bidstream management layer that analyzes in real time t
 
 Optimizer is designed as a pre-processor to make generalised decisioning that doesn't interfere with the specific decisioning an exchange or DSP makes.
 
+* Built for scale
+* Simple implementation
+* Real-time monitoring
+* 5-Step run-time process
+  * Basic Filtering
+  * Quality and Fraud Filtering
+  * Commercial Profiling
+  * Data Enrichment
+  * Throttling
+
 ## Built for scale
 
 Optimizer executes a narrow set of decisions very quickly. The objective is to provide control to the bidstream while adding negligible latency or impact to the platform. Optimizer adds no more than 3ms of internal latency to any bidstream regardless of scale.
 
 An Optimizer deployment will generally be co-located inside a clients data-center to reduce any connectivity latency between the service and platform.
 
-## 4-Step run-time process
+## Simple Implementation
 
-When optimizer receives a bid request
+## 5-Step run-time process
+
+The 5 primary steps every bid request passes through is:
+
+1. Basic Filtering
+1. Quality and Fraud Filtering
+1. Commercial Profiling
+1. Data Enrichment
+1. Throttling
+
+### Basic Filtering
