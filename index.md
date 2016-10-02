@@ -5,16 +5,16 @@ title: Home
 
 # Introduction
 
-Bidstream Optimizer is a powerful technology to help you generate more value from your ad platform. Whether it's to generate more revenue, increase capacity, reduce platform operating costs or have greater control over supply quality, Bidstream Optimizer can help you achieve those goals.
+Bidstream Optimizer is a powerful technology to help platforms, DSPs and SSPs, generate greater performance from programmatic inventory. Whether the objective is to generate more revenue, increase capacity, reduce platform operating costs or have greater control over supply quality, Bidstream Optimizer can help you achieve those goals.
 
-While deploying Optimizer is relatively simple, a decision to introduce any technology to a platform that operates at scale needs to be well planned. For this reason we have developed these docs to explain the core concepts behind Optimizer, the types of strategies that can be employed to to improve platform performance as well as a walk through the main steps when implementing a bidstream optimization strategy.
+While deploying Optimizer is relatively simple, a decision to introduce any service to a technology stack operating at scale needs to be well planned. For this reason we've explained here the core concepts behind Optimizer, the different strategies that can be employed by Optimizer to improve platform performance, as well as a walk through the main steps taken when integrating Bidstream Optimizer into your stack.
 
 * [How Optimizer works](how-optimizer-works)
-* Defining an Optimizer strategy
-* Going Live with Optimizer - Onboarding Process
-* Optimizing Optimizer
-* Data Enrichment
-* Developer API
+* [Defining an Optimizer strategy](defining-an-optimizer-strategy)
+* [Going Live with Optimizer - Onboarding Process](onboarding)
+* [Optimizing Optimizer](optimizing-optimizer)
+* [Data Enrichment](data-enrichment)
+* [Developer API](optimizer-api)
 
 There are X steps to get up and running with Bidstream Optimizer
 
