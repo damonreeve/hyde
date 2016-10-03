@@ -27,7 +27,7 @@ The key measure of success in both of these strategies is the revenue that is ge
 
 In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. Another assumption is that there is enough quality supply available to meet the demand. The point at which revenue starts to fall is the maximum filter rate available.
 
-<table>
+<table class="case-study">
 <tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
 <tr><td class="l">Inbound QPS</td><td>7,843</td><td>8,376</td><td>9,565</td><td>11,975</td><td>13,333</td></tr>
 <tr><td class="l">Inbound Net Revenue</td><td>$24,627</td><td>$26,301</td><td>$30,036</td><td>$37,602</td><td>$41,867</td></tr>
@@ -52,7 +52,7 @@ In this case study, infrastructure costs savings of over 37% were achieved with 
 
 If growth is constrained by infrastructure capacity and there is significant latent demand available, then a different commercial model can be applied, where the inbound bidstream to the platform is fixed and the most relevant bidstream is passed into the system to meet the latent demand.
 
-<table>
+<table class="case-study">
 <tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
 <tr><td class="l">Inbound QPS</td><td>7,843</td><td>9,803</td><td>13,071</td><td>19,607</td><td>39,215</td></tr>
 <tr><td class="l">Inbound Net Revenue</td><td>$24,627</td><td>$30,783</td><td>$41,045</td><td>$61,567</td><td>$12,3135</td></tr>
