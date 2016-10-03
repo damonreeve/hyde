@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+}
+th, td {
+    text-align: right;
+}
+td.l {
+    text-align: left;
+}
