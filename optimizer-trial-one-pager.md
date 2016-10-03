@@ -31,6 +31,7 @@ It's always good to know what success looks like before running a trial. Nice to
 This is largely dependent on what you are trying to achieve as a business. As a prompt here are some of the more common ones
 
 Strategy | Description | Measure
+--- | --- | ---
 Maximise revenue with constant QPS | I want to cap the inbound QPS from this supplier and maximise the revenue I generate from them | Revenue / QPS
 Constant Revenue with minimum QPS | I want to cap the demand I am giving to this supplier and want to reduce the bidstream down to the minimum possible | Revenue / QPS
 Fraud and Quality filtering | I want to remove all fraudulent and low/zero quality inventory from the suppliers stream | Authentication Rate
@@ -41,6 +42,7 @@ Direct inventory | I only want directly sourced inventory from the supplier (rem
 Once we have determined the supplier, which location we are testing and what our test criteria are it's time to go live. Here is the list of simple tasks for onboarding
 
 Task | Who | Description
+--- | --- | ---
 Sign a test agreement | Both | The test period is no charge, but it's good to have a simple agreement that covers each party for the test
 Create a new Optimizer account | Authenticated | So you have access to our admin console, generate api keys and endpoints
 Update Optimizer with bidder endpoint | Authenticated | This is so Optimizer send requests to the right place
