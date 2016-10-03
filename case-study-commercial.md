@@ -11,3 +11,16 @@ In both examples, Authenticated uses a commercial model and a quality model to a
 Authenticated fees are $1K + 30% revenue uplift in this case.
 
 We will also send through the before/after metrics regarding supply quality for each of the cases (e.g. recycled/arbitraged inventory, accurately described inventory, etc.)
+
+
+BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
+--- | --- | --- | --- | --- | ---
+FILTER | | | | | 
+ Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
+ Inbound Net Revenue | $ 24,627.02 | $ 26,301.52 | $ 30,036.34 | $ 37,602.46 | $ 41,867.21 
+| | | | | 
+ Impression Filter Rate | 0.0% | 20.0% | 40.0% | 60.0% | 80.0%
+ Revenue Filter Rate | 0.0% | 6.4% | 18.0% | 34.5% | 41.2%
+| | | | | 
+ Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,667 
+ Outbound Net Revenue | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 
