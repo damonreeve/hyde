@@ -54,20 +54,17 @@ If infrastructure capacity is a challenge but there is significant latent demand
 
 <table>
 <tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
-<tr><td class="l">Inbound QPS</td><td>7843</td><td>9803.75</td><td>13071.6666666667</td><td>19607.5</td><td>39215</td></tr>
-<tr><td class="l">Inbound Net Revenue</td><td>24627.02</td><td>30783.775</td><td>41045.0333333333</td><td>61567.55</td><td>123135.1</td></tr>
+<tr><td class="l">Inbound QPS</td><td>7,843</td><td>9,803</td><td>13,071</td><td>19,607</td><td>39,215</td></tr>
+<tr><td class="l">Inbound Net Revenue</td><td>$24,627</td><td>$30,783</td><td>$41,045</td><td>$61,567</td><td>$12,3135</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Impression Filter Rate</td><td>0</td><td>0.2</td><td>0.4</td><td>0.6</td><td>0.8</td></tr>
-<tr><td class="l">Revenue Filter Rate</td><td>0</td><td>0.0636655859450772</td><td>0.180092554105356</td><td>0.345068861362818</td><td>0.411782636406462</td></tr>
+<tr><td class="l">Impression Filter Rate</td><td>0%</td><td>20%</td><td>40%</td><td>60%</td><td>80%</td></tr>
+<tr><td class="l">Revenue Filter Rate</td><td>0%</td><td>6.3%</td><td>18.0%</td><td>34.5%</td><td>41.1%</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Outbound QPS</td><td>7843</td><td>7843</td><td>7843</td><td>7843</td><td>7843</td></tr>
-<tr><td class="l">Outbound Net Revenue</td><td>24627.02</td><td>28823.9079270236</td><td>33653.1284469938</td><td>40322.5056246017</td><td>72430.2038878267</td></tr>
+<tr><td class="l">Outbound QPS</td><td>7,843</td><td>7,843</td><td>7,843</td><td>7,843</td><td>7,843</td></tr>
+<tr><td class="l">Outbound Net Revenue</td><td>$24,627</td><td>$28,823</td><td>$33,653</td><td>$40,322</td><td>$72,430</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Infrastructure</td><td>11764.5</td><td>11764.5</td><td>11764.5</td><td>11764.5</td><td>11764.5</td></tr>
-<tr><td class="l">Authenticated Fees</td><td>0</td><td>2259.06637810707</td><td>3707.83253409815</td><td>5708.6456873805</td><td>15340.955166348</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Revenue less Other Costs</td><td>12862.52</td><td>14800.3415489165</td><td>18180.7959128957</td><td>22849.3599372212</td><td>45324.7487214787</td></tr>
-<tr><td class="l">Profit Uplift</td><td>0</td><td>0.150656445931008</td><td>0.413470759454267</td><td>0.776429497269677</td><td>2.52378450890484</td></tr>
+<tr><td class="l">Infrastructure</td><td>$11,764</td><td>$11,764</td><td>$11,764</td><td>$11,764</td><td>$11,764</td></tr>
+<tr><td class="l">Profit Uplift</td><td>0%</td><td>15.0%</td><td>41.3%</td><td>77.6%</td><td>252.3%</td></tr>
 </table>
 
 but a challenge in being , Authenticated was used to improve the quality of the bidstream - and you can see the effect of different Authenticated settings for the same QPS levels.  Authenticated can deliver higher quality, more commercially viable inventory, so that if AOL advertisers have latent demand, the same QPS can generate 2.5x more profit (e.g. net revenues minus infrastructure costs and Authenticated fees), and 4x more revenues.
