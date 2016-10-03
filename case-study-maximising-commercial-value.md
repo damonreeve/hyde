@@ -26,21 +26,20 @@ The key measure of success in both of these strategies is the revenue that is ge
 In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. The point at which revenue starts to fall is the maximum filter rate available.
 
 <table>
-<tr><td>CONSTANT NET REVENUE</td><td></td><td>LOW</td><td>MEDIUM</td><td>HIGH</td><td>MAX</td></tr>
-<tr><td>Inbound QPS</td><td>7843</td><td>8376</td><td>9565</td><td>11975</td><td>13333</td></tr>
-<tr><td>Inbound Net Revenue</td><td>24627.02</td><td>26301.521796416</td><td>30036.3414472083</td><td>37602.4570327276</td><td>41867.2101917369</td></tr>
+<tr><td>BIDSTREAM SUMMARY</td><td>BASELINE</td><td>LOW FILTER</td><td>MEDIUM FILTER</td><td>HIGH FILTER</td><td>MAX FILTER</td></tr>
+<tr><td>Inbound QPS</td><td>7,843</td><td>8,376</td><td>9,565</td><td>11,975</td><td>13,333</td></tr>
+<tr><td>Inbound Net Revenue</td><td>$24,627</td><td>$26,301</td><td>$30,036</td><td>$37,602</td><td>$41,867</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Impression Filter Rate</td><td>0</td><td>0.2</td><td>0.4</td><td>0.6</td><td>0.8</td></tr>
-<tr><td>Revenue Filter Rate</td><td>0</td><td>0.0636655859450772</td><td>0.180092554105356</td><td>0.345068861362818</td><td>0.411782636406462</td></tr>
+<tr><td>Impression Filter Rate</td><td>0%</td><td>20%</td><td>40%</td><td>60%</td><td>80%</td></tr>
+<tr><td>Revenue Filter Rate</td><td>0%</td><td>6.3%</td><td>18.0%</td><td>34.5%</td><td>41.1%</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Outbound QPS</td><td>7843</td><td>6701.02466150727</td><td>5739.42830201433</td><td>4790.12191499714</td><td>2666.70128609789</td></tr>
-<tr><td>Outbound Net Revenue</td><td>24627.02</td><td>24627.02</td><td>24627.02</td><td>24627.02</td><td>24627.02</td></tr>
+<tr><td>Outbound QPS</td><td>7,843</td><td>6,701</td><td>5,739</td><td>4,790</td><td>2,666</td></tr>
+<tr><td>Outbound Net Revenue</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>OTHER COSTS</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Infrastructure</td><td>11764.5</td><td>10051.5369922609</td><td>8609.14245302149</td><td>7185.18287249571</td><td>4000.05192914684</td></tr>
-<tr><td>Authenticated Fees</td><td>0</td><td>1513.88890232173</td><td>1946.60726409355</td><td>2373.79513825129</td><td>3329.33442125595</td></tr>
+<tr><td>Infrastructure</td><td>$11,764</td><td>$10,051</td><td>$8,609</td><td>$7,185</td><td>$4,000</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Cost Reduction</td><td>0</td><td>0.0169215950883899</td><td>0.102745572092733</td><td>0.187472649857878</td><td>0.37699125756277</td></tr>
+<tr><td>Cost Reduction</td><td>0</td><td>1.6%</td><td>10.2%</td><td>18.7%</td><td>37.6%</td></tr>
 </table>
 
 BIDSTREAM SUMMARY | BASELINE	| FILTER LOW | FILTER	MEDIUM | FILTER	HIGH | FILTER MAX
