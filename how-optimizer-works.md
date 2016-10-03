@@ -20,7 +20,7 @@ Optimizer is designed as a pre-processor to make generalised decisioning that do
 <a name="built-for-scale"></a>
 ## Built for scale
 
-Optimizer executes a narrow set of decisions very quickly. The objective is to provide control to the bidstream while adding negligible latency or impact to the platform. Optimizer adds no more than 3ms of internal latency to any bidstream regardless of scale.
+Optimizer executes a narrow set of decisions very quickly. The objective is to provide control to the bidstream while adding negligible latency or impact to the platform. Optimizer adds no more than `3ms` of internal latency to any bidstream regardless of scale.
 
 An Optimizer deployment will generally be co-located inside a clients data-center to reduce any connectivity latency between the service and platform.
 
