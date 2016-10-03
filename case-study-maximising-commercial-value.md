@@ -21,7 +21,6 @@ In this strategy an assumption is made that there is no latent demand available 
 
 BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
 --- | --- | --- | --- | --- | ---
-FILTER | | | | | 
 Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
 Inbound Net Revenue ($) | 24,627 | 26,301 | 30,036 | 37,602 | 41,867 
 | | | | | 
