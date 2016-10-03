@@ -18,6 +18,9 @@ The key measure of success in both of these strategies is the revenue that is ge
 
 In this strategy an assumption is made that there is no latent demand available and the objective is to reduce costs by filtering the bidstream down to only the most valuable to meet available demand. Revenue is kept constant and the bidstream is filtered down to meet it. The point at which revenue starts to fall is the maximum filter rate available.
 
+TEST | A | B | C
+--- | --- | ---
+NOTHING | A | B | C
 
 BIDSTREAM SUMMARY | BASELINE	| FILTER LOW | FILTER	MEDIUM | FILTER	HIGH | FILTER MAX
 --- | --- | --- | --- | --- | ---
