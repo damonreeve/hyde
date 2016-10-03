@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Commercial Case Study
+title: Case Study Commercial
 ---
 
 Please find the attached spreadsheet that gives two real world examples of using Authenticated.
