@@ -26,7 +26,7 @@ The key measure of success in both of these strategies is the revenue that is ge
 In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. The point at which revenue starts to fall is the maximum filter rate available.
 <style>
 table { width: 100%; }
-th, td { text-align: left; }
+th, td { text-align: right; }
 </style>
 <table style="width:100%">
 <tr><td>BIDSTREAM SUMMARY</td><td>BASELINE</td><td>LOW FILTER</td><td>MEDIUM FILTER</td><td>HIGH FILTER</td><td>MAX FILTER</td></tr>
