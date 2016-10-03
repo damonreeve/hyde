@@ -20,11 +20,17 @@ Optimizer is designed as a pre-processor to make generalised decisioning that do
 <a name="built-for-scale"></a>
 ## Built for scale
 
-Optimizer executes a narrow set of decisions very quickly. The objective is to provide control to the bidstream while adding negligible latency or impact to the platform. Optimizer adds no more than `3ms` of internal latency to any bidstream regardless of scale.
+Optimizer executes a very specific set of decisions very quickly. The objective is to provide control over the bidstream while adding negligible latency or impact to the platform. Optimizer adds no more than `3ms` of internal latency to any bidstream regardless of scale.
 
-An Optimizer deployment will generally be co-located inside a clients data-center to reduce any connectivity latency between the service and platform.
+## Distributed Architecture
+
+Optimizer architecture is separated into Optimizer run-time nodes that are a stateless, distributed set of services that can be run in any location, and central services for deep level analysis and model maintenance.
+
+Optimizer run-time nodes will generally be co-located inside a clients data-center to reduce any connectivity latency between the service and platform. Read more about [Deployment Scenario's](deployment-scenarios).
 
 ## Simple Implementation
+
+Optimizer
 
 ## 5-Step run-time process
 
