@@ -1,3 +1,8 @@
+---
+layout: page
+title: Failover
+---
+
 # Managing DNS and failover
 
 There are a number of different configurations that can be utilized when deploying Bidstream Optimizer. Choosing the right one depends on individual preference based on the level of control and risk mitigation you want to introduce.
