@@ -36,25 +36,9 @@ In this strategy an assumption is made that there is no latent demand from the p
 <tr><td>Outbound QPS</td><td>7,843</td><td>6,701</td><td>5,739</td><td>4,790</td><td>2,666</td></tr>
 <tr><td>Outbound Net Revenue</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>OTHER COSTS</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Infrastructure</td><td>$11,764</td><td>$10,051</td><td>$8,609</td><td>$7,185</td><td>$4,000</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>Cost Reduction</td><td>0</td><td>1.6%</td><td>10.2%</td><td>18.7%</td><td>37.6%</td></tr>
 </table>
-
-BIDSTREAM SUMMARY | BASELINE	| FILTER LOW | FILTER	MEDIUM | FILTER	HIGH | FILTER MAX
---- | --- | --- | --- | --- | ---
-Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
-Inbound Net Revenue | 24,627 | 26,301 | 30,036 | 37,602 | 41,867 
- | | | | | 
-Impression Filter Rate | 0.0% | 20.0% | 40.0% | 60.0% | 80.0% 
-Revenue Filter Rate | 0.0% | 6.4% | 18.0% | 34.5% | 41.2% 
- | | | | | 
-Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,667 
-Outbound Net Revenue ($) | 24,627 | 24,627 | 24,627 | 24,627 | 24,627 
- | | | | | 
-Infrastructure ($) | 11,764 | 10,051 | 8,609 | 7,185 | 4,000 
-Cost Saving | 0.0% | 1.7% | 10.3% | 18.7% | 37.7% 
 
 In this example, you can see the effect of using Authenticated with different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting (, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
 
