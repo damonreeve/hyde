@@ -1,3 +1,8 @@
+---
+layout: page
+title: Commercial Case Study
+---
+
 Please find the attached spreadsheet that gives two real world examples of using Authenticated.
 
 Example 1 - Reducing QPS (Constant Net Revenue Worksheet)
