@@ -33,24 +33,24 @@ It's always good to know what success looks like before running a trial. Nice to
 
 This is largely dependent on what you are trying to achieve as a business. As a prompt here are some of the more common ones
 
-Strategy | Description | Measure
---- | --- | ---
-Maximise revenue with constant QPS | I want to cap the inbound QPS from this supplier and maximise the revenue I generate from them | Revenue / QPS
-Constant Revenue with minimum QPS | I want to cap the demand I am giving to this supplier and want to reduce the bidstream down to the minimum possible | Revenue / QPS
-Fraud and Quality filtering | I want to remove all fraudulent and low/zero quality inventory from the suppliers stream | Authentication Rate
-Direct inventory | I only want directly sourced inventory from the supplier (remove arbitrage and duplicate header bidding requests from the bidstream) without losing access to supply | Direct %; count(distinct domains/apps)
+<table>
+<tr><td>Strategy</td><td>Description</td><td>Measure</td></tr>
+<tr><td>Maximise revenue with constant QPS</td><td>I want to cap the inbound QPS from this supplier and maximise the revenue I generate from them</td><td>Revenue / QPS</td></tr>
+<tr><td>Constant Revenue with minimum QPS</td><td>I want to cap the demand I am giving to this supplier and want to reduce the bidstream down to the minimum possible</td><td>Revenue / QPS</td></tr>
+<tr><td>Fraud and Quality filtering</td><td>I want to remove all fraudulent and low/zero quality inventory from the suppliers stream</td><td>Authentication Rate</td></tr>
+<tr><td>Direct inventory</td><td>I only want directly sourced inventory from the supplier (remove arbitrage and duplicate header bidding requests from the bidstream) without losing access to supply</td><td>Direct %; count(distinct domains/apps)</td></tr>
+</table>
 
 ## Go Live!
 
 Once we have determined the supplier, which location we are testing and what our test criteria are it's time to go live. Here is the list of simple tasks for onboarding
 
-Task | Who | Description
---- | --- | ---
-Sign a test agreement | Both | The test period is no charge, but it's good to have a simple agreement that covers each party for the test
-Create a new Optimizer account | Authenticated | So you have access to our admin console, generate api keys and endpoints
-Update Optimizer with bidder endpoint | Authenticated | This is so Optimizer send requests to the right place
-Test/QA | Authenticated/You | Test the configuration to make sure data is flowing end-to-end
-Update supplier with new Authenticated endpoint | Supplier/Authenticated | This then sends the bidstream to Authenticated instead of directly to your bidder. This can also be CNAMED from your DNS provider rather than updating the endpoint if preferred
-Monitor bidstream | You | Real-time monitoring will activate so you can see the profile of your bidstream. We can immediately begin applying filters based on your target strategy
-
-----
+<table>
+<tr><td>Task</td><td>Who</td><td>Description</td></tr>
+<tr><td>Sign a test agreement</td><td>Both</td><td>The test period is no charge, but it's good to have a simple agreement that covers each party for the test</td></tr>
+<tr><td>Create a new Optimizer account</td><td>Authenticated</td><td>So you have access to our admin console, generate api keys and endpoints</td></tr>
+<tr><td>Update Optimizer with bidder endpoint</td><td>Authenticated</td><td>This is so Optimizer send requests to the right place</td></tr>
+<tr><td>Test/QA</td><td>Authenticated/You</td><td>Test the configuration to make sure data is flowing end-to-end</td></tr>
+<tr><td>Update supplier with new Authenticated endpoint</td><td>Supplier/Authenticated</td><td>This then sends the bidstream to Authenticated instead of directly to your bidder. This can also be CNAMED from your DNS provider rather than updating the endpoint if preferred</td></tr>
+<tr><td>Monitor bidstream</td><td>You</td><td>Real-time monitoring will activate so you can see the profile of your bidstream. We can immediately begin applying filters based on your target strategy</td></tr>
+</table>
