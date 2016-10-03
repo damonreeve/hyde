@@ -19,7 +19,7 @@ The key measure of success in both of these strategies is the revenue that is ge
 In this strategy an assumption is made that there is no latent demand available and the objective is to reduce costs by filtering the bidstream down to only the most valuable to meet available demand. Revenue is kept constant and the bidstream is filtered down to meet it. The point at which revenue starts to fall is the maximum filter rate available.
 
 
-BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
+BIDSTREAM SUMMARY | BASELINE	| FILTER LOW | FILTER	MEDIUM | FILTER	HIGH | FILTER MAX
 --- | --- | --- | --- | --- | ---
 Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
 Inbound Net Revenue | 24,627 | 26,301 | 30,036 | 37,602 | 41,867 
