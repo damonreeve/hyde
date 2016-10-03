@@ -22,7 +22,7 @@ In this strategy an assumption is made that there is no latent demand available 
 BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
 --- | --- | --- | --- | --- | ---
 Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
-Inbound Net Revenue ($) | 24,627 | 26,301 | 30,036 | 37,602 | 41,867 
+Inbound Net Revenue | 24,627 | 26,301 | 30,036 | 37,602 | 41,867 
 
 
 In this example, you can see the effect of using Authenticated with different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting (, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
