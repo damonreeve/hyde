@@ -30,3 +30,10 @@ OTHER COSTS | | | | |
  Authenticated Fees | $ - | $ 1,513.89 | $ 1,946.61 | $ 2,373.80 | $ 3,329.33 
 | | | | | 
 Cost Reduction | 0.0% | 1.7% | 10.3% | 18.7% | 37.7%
+
+
+## PUBLISHER DIRECT MODEL
+
+By using the "publisher direct" quality model, and filtering out "recycled" and "secondary" suppliers, we are able to control the bidstream to allow the best supplier for inventory without reducing access to any publisher domains or apps. With be bidstreams we have live this is resulting in the ability to filter 20% of bid requests without reducing acccess to any supply (web domains or apps) and only reducing impression supply by 5%.
+
+By using the "publisher direct" quality model, and filtering out "recycled" and "secondary" suppliers, you can bid on only the best supplier without reducing access to any publisher domains.  Our model in general will allow you to filter 20% of bids which are deemed duplicate supply, which removes only 5% of impressions. Note that the 5% of impressions will not necessarily be lost.  These are most likely impressions that will be won on the best supplier rather than the secondary supplier in the future if you implement these rules.  You just won't be bidding against yourself.
