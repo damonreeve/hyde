@@ -8,8 +8,9 @@ There are many different strategies that can be employed when using Bidstream Op
 Its important that with any changes you make to your bidstream there is a clear understanding of what success looks like and KPI's are measured.
 
 Outlined here are the results of two similar strategies focusing on the commercial value of the bidstream, but with some important differences
-* Reducing QPS (Constant Net Revenue Worksheet)
-* Increasing Bidstream Revenue (Constant QPS Worksheet)
+
+1. Reducing QPS (Constant Net Revenue Worksheet)
+1. Increasing Bidstream Revenue (Constant QPS Worksheet)
 
 The key measure of success in both of these strategies is the revenue that is generated from the QPS passed to the bidder (Revenue / QPS)
 
