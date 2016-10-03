@@ -50,7 +50,7 @@ In this case study, infrastructure costs savings of over 37% were achieved with 
 
 ## 2. Increasing Bidstream Revenue (Constant QPS)
 
-If infrastructure capacity is a challenge but there is significant latent demand, then a different commercial model can be applied, where the bidstream coming in to the system is held constant while leveraging as much latent demand as possible.
+If growth is constrained by infrastructure capacity and there is significant latent demand available, then a different commercial model can be applied, where the inbound bidstream to the platform is fixed and the most relevant bidstream is passed into the system to meet the latent demand.
 
 <table>
 <tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
@@ -67,20 +67,8 @@ If infrastructure capacity is a challenge but there is significant latent demand
 <tr><td class="l">Profit Uplift</td><td>0%</td><td>15.0%</td><td>41.3%</td><td>77.6%</td><td>252.3%</td></tr>
 </table>
 
-but a challenge in being , Authenticated was used to improve the quality of the bidstream - and you can see the effect of different Authenticated settings for the same QPS levels.  Authenticated can deliver higher quality, more commercially viable inventory, so that if AOL advertisers have latent demand, the same QPS can generate 2.5x more profit (e.g. net revenues minus infrastructure costs and Authenticated fees), and 4x more revenues.
+In this study the QPS to the platform (`Output QPS`) is kept constant at 7,843 QPS. The `Inbound QPS` to Optimizer is increased to find the most relevant bid requests for the latent demand growing from 7,843 to 39,215 QPS. 
 
-In both examples, Authenticated uses a commercial model and a quality model to achieve these results.  The underlying raw SSP traffic in this example had a 2% bid rate, 50% win rate, and 75% impression rate before Authenticated was enabled.
+The net revenue impact is significant growing to more than 2.5x with maximum filtering.
 
-Authenticated fees are $1K + 30% revenue uplift in this case.
-
-We will also send through the before/after metrics regarding supply quality for each of the cases (e.g. recycled/arbitraged inventory, accurately described inventory, etc.)
-
-
-
-
-
-## PUBLISHER DIRECT MODEL
-
-By using the "publisher direct" quality model, and filtering out "recycled" and "secondary" suppliers, we are able to control the bidstream to allow the best supplier for inventory without reducing access to any publisher domains or apps. With be bidstreams we have live this is resulting in the ability to filter 20% of bid requests without reducing acccess to any supply (web domains or apps) and only reducing impression supply by 5%.
-
-By using the "publisher direct" quality model, and filtering out "recycled" and "secondary" suppliers, you can bid on only the best supplier without reducing access to any publisher domains.  Our model in general will allow you to filter 20% of bids which are deemed duplicate supply, which removes only 5% of impressions. Note that the 5% of impressions will not necessarily be lost.  These are most likely impressions that will be won on the best supplier rather than the secondary supplier in the future if you implement these rules.  You just won't be bidding against yourself.
+-----
