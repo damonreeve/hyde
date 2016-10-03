@@ -3,12 +3,20 @@ layout: page
 title: Case Study Commercial
 ---
 
-Please find the attached spreadsheet that gives two real world examples of using Authenticated.
+There are many different strategies that can be employed when using Bidstream Optimizer. Whether your are looking to maximise commercial value from a throttled bidstream, remove arbitrage and duplicated bid requests, remove fraud or just filter requests that you can't sell, Optimizer can implement these strategies in a simple, fast and controllable way.
 
-Example 1 - Reducing QPS (Constant Net Revenue Worksheet)
+Its important that with any changes you make to your bidstream there is a clear understanding of what success looks like and KPI's are measured.
+
+Outlined here are the results of two similar strategies focusing on the commercial value of the bidstream, but with some important differences
+* Reducing QPS (Constant Net Revenue Worksheet)
+* Increasing Bidstream Revenue (Constant QPS Worksheet)
+
+The key measure of success in both of these strategies is the revenue that is generated from the QPS passed to the bidder (Revenue / QPS)
+
+## 1. Reducing QPS (Constant Net Revenue Worksheet)
 In this example, you can see the effect of using Authenticated at different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
 
-Example 2 - Increasing Bidstream Revenue (Constant QPS Worksheet)
+## 2. Increasing Bidstream Revenue (Constant QPS Worksheet)
 In this example, Authenticated was used to improve the quality of the bidstream - and you can see the effect of different Authenticated settings for the same QPS levels.  Authenticated can deliver higher quality, more commercially viable inventory, so that if AOL advertisers have latent demand, the same QPS can generate 2.5x more profit (e.g. net revenues minus infrastructure costs and Authenticated fees), and 4x more revenues.
 
 In both examples, Authenticated uses a commercial model and a quality model to achieve these results.  The underlying raw SSP traffic in this example had a 2% bid rate, 50% win rate, and 75% impression rate before Authenticated was enabled.
