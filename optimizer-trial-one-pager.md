@@ -1,4 +1,7 @@
-Bidstream Optimizer Trial One-pager
+---
+layout: page
+title: Bidstream Optimizer Trial One-pager
+---
 
 Something we get asked a bit is "what's the fastest and easiest way to try out Optimizer?". 
 
