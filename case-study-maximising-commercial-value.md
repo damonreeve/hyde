@@ -9,14 +9,15 @@ Its important that with any changes you make to your bidstream there is a clear 
 
 Outlined here are the results of two similar strategies focusing on the commercial value of the bidstream, but with some important differences
 
-1. Reducing QPS (Constant Net Revenue Worksheet)
-1. Increasing Bidstream Revenue (Constant QPS Worksheet)
+1. Reducing QPS to meet demand
+1. Maximising Revenue
 
 The key measure of success in both of these strategies is the revenue that is generated from the QPS passed to the bidder (Revenue / QPS)
 
 ## 1. Reducing QPS to meet demand
 
-In this strategy the objective is to reduce the bidstream down to only the most valuable, in order to meet available demand. Revenue is kept constant and the bidstream is filtered down to meet it. The point at which revenue starts to fall is the maximum filter rate available.
+In this strategy an assumption is made that there is no latent demand available and the objective is to reduce costs by filtering the bidstream down to only the most valuable to meet available demand. Revenue is kept constant and the bidstream is filtered down to meet it. The point at which revenue starts to fall is the maximum filter rate available.
+
 
 BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
 --- | --- | --- | --- | --- | ---
