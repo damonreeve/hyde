@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case Study Commercial
+title: Case Study - Maximising commercial value
 ---
 
 There are many different strategies that can be employed when using Bidstream Optimizer. Whether your are looking to maximise commercial value from a throttled bidstream, remove arbitrage and duplicated bid requests, remove fraud or just filter requests that you can't sell, Optimizer can implement these strategies in a simple, fast and controllable way.
@@ -13,8 +13,29 @@ Outlined here are the results of two similar strategies focusing on the commerci
 
 The key measure of success in both of these strategies is the revenue that is generated from the QPS passed to the bidder (Revenue / QPS)
 
-## 1. Reducing QPS (Constant Net Revenue Worksheet)
-In this example, you can see the effect of using Authenticated at different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
+## 1. Reducing QPS to meet demand
+
+In this strategy the objective is to reduce the bidstream down to only the most valuable, in order to meet available demand. Revenue is kept constant and the bidstream is filtered down to meet it. The point at which revenue starts to fall is the maximum filter rate available.
+
+BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
+--- | --- | --- | --- | --- | ---
+FILTER | | | | | 
+ Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
+ Inbound Net Revenue ($) | 24,627.02 | 26,301.52 | 30,036.34 | 37,602.46 | 41,867.21 
+| | | | | 
+ Impression Filter Rate | 0.0% | 20.0% | 40.0% | 60.0% | 80.0%
+ Revenue Filter Rate | 0.0% | 6.4% | 18.0% | 34.5% | 41.2%
+| | | | | 
+ Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,667 
+ Outbound Net Revenue ($) | 24,627.02 | 24,627.02 | 24,627.02 | 24,627.02 | 24,627.02 
+| | | | | 
+OTHER COSTS | | | | | 	
+ Infrastructure | $ 11,764.50 | $ 10,051.54 | $ 8,609.14 | $ 7,185.18 | $ 4,000.05 
+ Authenticated Fees | $ - | $ 1,513.89 | $ 1,946.61 | $ 2,373.80 | $ 3,329.33 
+| | | | | 
+Cost Reduction | 0.0% | 1.7% | 10.3% | 18.7% | 37.7%
+
+In this example, you can see the effect of using Authenticated with different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting (, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
 
 ## 2. Increasing Bidstream Revenue (Constant QPS Worksheet)
 In this example, Authenticated was used to improve the quality of the bidstream - and you can see the effect of different Authenticated settings for the same QPS levels.  Authenticated can deliver higher quality, more commercially viable inventory, so that if AOL advertisers have latent demand, the same QPS can generate 2.5x more profit (e.g. net revenues minus infrastructure costs and Authenticated fees), and 4x more revenues.
@@ -26,23 +47,7 @@ Authenticated fees are $1K + 30% revenue uplift in this case.
 We will also send through the before/after metrics regarding supply quality for each of the cases (e.g. recycled/arbitraged inventory, accurately described inventory, etc.)
 
 
-BIDSTREAM SUMMARY CONSTANT NET REVENUE | BASELINE	| FILTER SETTING LOW | FILTER SETTING	MEDIUM | FILTER SETTING	HIGH | FILTER SETTING MAX
---- | --- | --- | --- | --- | ---
-FILTER | | | | | 
- Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333 
- Inbound Net Revenue | $ 24,627.02 | $ 26,301.52 | $ 30,036.34 | $ 37,602.46 | $ 41,867.21 
-| | | | | 
- Impression Filter Rate | 0.0% | 20.0% | 40.0% | 60.0% | 80.0%
- Revenue Filter Rate | 0.0% | 6.4% | 18.0% | 34.5% | 41.2%
-| | | | | 
- Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,667 
- Outbound Net Revenue | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 | $ 24,627.02 
-| | | | | 
-OTHER COSTS | | | | | 	
- Infrastructure | $ 11,764.50 | $ 10,051.54 | $ 8,609.14 | $ 7,185.18 | $ 4,000.05 
- Authenticated Fees | $ - | $ 1,513.89 | $ 1,946.61 | $ 2,373.80 | $ 3,329.33 
-| | | | | 
-Cost Reduction | 0.0% | 1.7% | 10.3% | 18.7% | 37.7%
+
 
 
 ## PUBLISHER DIRECT MODEL
