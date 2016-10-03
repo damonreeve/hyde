@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Case Study - Maximising commercial value
+title: Maximising commercial value
 ---
+
+## Case Study
 
 There are many different strategies that can be employed when using Bidstream Optimizer. You may want to
 
@@ -19,11 +21,11 @@ Outlined here are the results of two similar strategies focusing on the commerci
 1. Reducing QPS to meet demand
 1. Maximising Revenue
 
-The key measure of success in both of these strategies is the revenue that is generated from the QPS passed to the bidder (`Revenue / QPS`).
+The key measure of success in both of these strategies is the revenue that is generated from the bidstream QPS (`Revenue / QPS`).
 
 ## 1. Reducing QPS to meet demand
 
-In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. The point at which revenue starts to fall is the maximum filter rate available.
+In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. Another assumption is that there is enough quality supply available to meet the demand. The point at which revenue starts to fall is the maximum filter rate available.
 
 <table>
 <tr><td></td><td class="l">BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
@@ -40,7 +42,11 @@ In this strategy an assumption is made that there is no latent demand from the p
 <tr><td class="l">Cost Reduction</td><td>0</td><td>1.6%</td><td>10.2%</td><td>18.7%</td><td>37.6%</td></tr>
 </table>
 
-In this example, you can see the effect of using Authenticated with different filter rates, and the vastly lowered QPS needed to achieve the same spend levels.  At the highest filter setting (, the same spend can be achieved with 1/3 of the inbound traffic.  This can reduce infrastructure costs by more than a third.
+Actual platform revenue (`Outbound Net Revenue`) is fixed at $24,627. As the filter rate increases so does the inbound QPS to ensure there are enough relevant impressions passing through the filter to meet demand.
+
+As the filtering increases and the bidstream becomes more relevant, infrastructure costs start to come down (`Infrastructure`)as the platform doesn't need to process as many requests (`Outbound QPS`).
+
+In this case study, infrastructure costs savings of over 37% were achieved with zero impact on revenue.
 
 ## 2. Increasing Bidstream Revenue (Constant QPS Worksheet)
 In this example, Authenticated was used to improve the quality of the bidstream - and you can see the effect of different Authenticated settings for the same QPS levels.  Authenticated can deliver higher quality, more commercially viable inventory, so that if AOL advertisers have latent demand, the same QPS can generate 2.5x more profit (e.g. net revenues minus infrastructure costs and Authenticated fees), and 4x more revenues.
