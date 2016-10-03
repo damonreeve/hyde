@@ -1,3 +1,8 @@
+---
+layout: page
+title: Optimizer Strategies
+---
+
 ## Define a Strategy - What does success look like?
 
 Might be a simple thing to ask but not always so simple to answer. Everything we do has competing objectives and many considerations so you may be trying to achieve many things when introducing Bidstream Optimizer.
