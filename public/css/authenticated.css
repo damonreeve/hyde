@@ -1,9 +1,9 @@
 table {
     width: 100%;
 }
-th, td {
+.case-study th, td {
     text-align: right;
 }
-td.l {
+.case-study td.l {
     text-align: left;
 }
