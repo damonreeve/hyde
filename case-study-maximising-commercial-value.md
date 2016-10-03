@@ -24,11 +24,8 @@ The key measure of success in both of these strategies is the revenue that is ge
 ## 1. Reducing QPS to meet demand
 
 In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. The point at which revenue starts to fall is the maximum filter rate available.
-<style>
-table { width: 100%; }
-th, td { text-align: right; }
-</style>
-<table style="width:100%">
+
+<table>
 <tr><td>BIDSTREAM SUMMARY</td><td>BASELINE</td><td>LOW FILTER</td><td>MEDIUM FILTER</td><td>HIGH FILTER</td><td>MAX FILTER</td></tr>
 <tr><td>Inbound QPS</td><td>7,843</td><td>8,376</td><td>9,565</td><td>11,975</td><td>13,333</td></tr>
 <tr><td>Inbound Net Revenue</td><td>$24,627</td><td>$26,301</td><td>$30,036</td><td>$37,602</td><td>$41,867</td></tr>
