@@ -65,21 +65,6 @@ Outbound Net Revenue | $24,627 | $28,823 | $33,653 | $40,322 | $72,430
 Infrastructure | $11,764 | $11,764 | $11,764 | $11,764 | $11,764 
 Profit Uplift | 0% | 15.0% | 41.3% | 77.6% | 252.3% 
 
-<table class="case-study">
-<tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
-<tr><td class="l">Inbound QPS</td><td>7,843</td><td>9,803</td><td>13,071</td><td>19,607</td><td>39,215</td></tr>
-<tr><td class="l">Inbound Net Revenue</td><td>$24,627</td><td>$30,783</td><td>$41,045</td><td>$61,567</td><td>$12,3135</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Impression Filter Rate</td><td>0%</td><td>20%</td><td>40%</td><td>60%</td><td>80%</td></tr>
-<tr><td class="l">Revenue Filter Rate</td><td>0%</td><td>6.3%</td><td>18.0%</td><td>34.5%</td><td>41.1%</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Outbound QPS</td><td>7,843</td><td>7,843</td><td>7,843</td><td>7,843</td><td>7,843</td></tr>
-<tr><td class="l">Outbound Net Revenue</td><td>$24,627</td><td>$28,823</td><td>$33,653</td><td>$40,322</td><td>$72,430</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Infrastructure</td><td>$11,764</td><td>$11,764</td><td>$11,764</td><td>$11,764</td><td>$11,764</td></tr>
-<tr><td class="l">Profit Uplift</td><td>0%</td><td>15.0%</td><td>41.3%</td><td>77.6%</td><td>252.3%</td></tr>
-</table>
-
 In this study the QPS to the platform (`Output QPS`) is kept constant at 7,843 QPS. The `Inbound QPS` to Optimizer is increased to find the most relevant bid requests for the latent demand growing from 7,843 to 39,215 QPS. 
 
 The net revenue impact is significant growing to more than 2.5x with maximum filtering.
