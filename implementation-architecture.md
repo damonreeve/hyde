@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Failover
+title: Implementation Architecture
 ---
-
-# Implementation Architecture
 
 There are a number of different configurations that can be utilized when deploying Bidstream Optimizer. Choosing the right one depends on individual preference based on the level of control and risk mitigation you want to introduce.
 
