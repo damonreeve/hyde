@@ -25,9 +25,7 @@ opera.admedo.com
 
 For a standard Optimizer configuration this URL should CNAME to the Authenticated Stream URL.
 
-```
-In the event of an Authenticated system failure the client can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
-```
+> In the event of an Authenticated system failure the client can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
 
 ### Bidstream Optimizer URL
 This is the URL the stream should CNAME to. This is to access the Optimizer service
@@ -37,9 +35,7 @@ opera.admedo.rtb.authenticated.digital
 
 Once Optimizer processes a bid request it passes the request on to the Client Bidder URL
 
-```
-In the event of an Authenticated system failure Authenticated can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
-```
+> In the event of an Authenticated system failure Authenticated can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
 
 ### Client Bidder URL
 This is the URL for the bidder. All optimized streams are forwarded to this URL.
