@@ -27,17 +27,17 @@ The key measure of success in both of these strategies is the revenue that is ge
 
 In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. Another assumption is that there is enough quality supply available to meet the demand. The point at which revenue starts to fall is the maximum filter rate available.
 
-| BASELINE | LOW | MEDIUM | HIGH | MAX
+ | BASELINE | LOW | MEDIUM | HIGH | MAX
 :--- | ---: | ---: | ---: | ---: | ---:
 Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333
 Inbound Net Revenue | $24,627 | $26,301 | $30,036 | $37,602 | $41,867
-|  |  |  |  | 
+ |  |  |  |  | 
 Impression Filter Rate | 0% | 20% | 40% | 60% | 80%
 Revenue Filter Rate | 0% | 6.3% | 18.0% | 34.5% | 41.1%
-|  |  |  |  | 
+ |  |  |  |  | 
 Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,666
 Outbound Net Revenue | $24,627 | $24,627 | $24,627 | $24,627 | $24,627
-|  |  |  |  | 
+ |  |  |  |  | 
 Infrastructure | $11,764 | $10,051 | $8,609 | $7,185 | $4,000
 Cost Reduction | 0 | 1.6% | 10.2% | 18.7% | 37.6%
 
