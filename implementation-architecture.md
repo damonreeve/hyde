@@ -59,4 +59,10 @@ This should be changed to the a URL supplied by Authenticated which will point t
 [SUPPLIER].[CLIENT].rtb.authenticated.digital
 ```
 
-> In the event of an Authenticated system failure the supplier will update the client can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
+> In the event of an Authenticated system failure the supply stream URL will be changed from the Bidstream Optimizer URL to the Client Bidder URL.
+
+# Side Loading
+
+In specific circumstances (particularly under high load conditions) it is possible for Bidstream Optimizer to recieve specific fields from a stream and respond with whether the request should be filtered. This is a more conventional `Pre-bid` implementation but would require the platform to be able to act on the information that is passed back from Bidstream Optimizer.
+
+> Note this is a deep integration and not a standard implementation of Bidstream Optimizer. There is no failover protection required as Bidstream Optimizer is simply acting as a data enrichment partner.
