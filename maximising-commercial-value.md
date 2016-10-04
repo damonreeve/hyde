@@ -21,7 +21,6 @@ Limitations on infrastructure capacity can hinder growth. Often a client will fi
  | BASELINE | CONSERVATIVE  | AGGRESSIVE |
 :--- | :---: | :---: | :---: |
 *AD Filter Setting* | *0%* | *20%* | *60%* |
-Allowable QPS | 42,432 | 53,040 | 106,080 |
  **Revenue** | | | |
 Incoming Revenue | $113,294 | $141,617 | $283,235 |
 Revenue Retention Rate | 100% | 99% | 78% |
