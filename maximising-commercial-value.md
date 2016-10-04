@@ -52,6 +52,7 @@ In this case study, infrastructure costs savings of over 37% were achieved with 
 If growth is constrained by infrastructure capacity and there is significant latent demand available, then a different commercial model can be applied, where the inbound bidstream to the platform is fixed and the most relevant bidstream is passed into the system to meet the latent demand.
 
  | BASELINE | LOW  | MEDIUM  | HIGH  | MAX  
+:--- | ---: | ---: | ---: | ---: | ---:
 Inbound QPS | 7,843 | 9,803 | 13,071 | 19,607 | 39,215 
 Inbound Net Revenue | $24,627 | $30,783 | $41,045 | $61,567 | $12,3135 
  | | | | | 
