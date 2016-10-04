@@ -6,8 +6,9 @@ title: Maximising commercial value
 # Case Study
 
 a | test | table
---- | --- | ---
+:--- | ---: | :---
 this | is | a test
+this | is | another test
 
 There are many different strategies that can be employed when using Bidstream Optimizer. You may want to
 
