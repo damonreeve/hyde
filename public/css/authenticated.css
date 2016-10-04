@@ -7,3 +7,11 @@ table {
 .case-study td.l {
     text-align: left;
 }
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
