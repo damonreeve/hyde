@@ -49,4 +49,7 @@ failover.admedo.com
 
 ## Change API endpoints
 
+Changing API endpoints with the supplier is a simpler implementation to making any CNAME DNS change.
+
+![API ENDPOINT CHANGE](https://docs.google.com/drawings/d/1-uZh8grkXfV3SFbZFIq-ScCM1xBXbrXeFDvRfI4eZ64/pub?w=635&h=303)
 
