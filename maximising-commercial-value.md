@@ -37,6 +37,6 @@ Profit After Filtering | $49,646 | $77,360 | $157,105 |
 AD Fees | $0 | $9,314 | $33,238
 Final Profit | $49,646 | $68,046 | $123,867 |
  | | | |
- **% INCREASE IN PROFIT | 0.0% | 37.1% | 149.5% |**
+ **% Increase in Profit** | **0.0%** | **37.1%** | **149.5%** |
 
 In the example above, the greater the filter rate, the greater the QPS (and potential revenue!) the client can expose themselves to. Filtering cuts back dramatically on costs, but only moderately on revenue, increasing profit with every unproductive bid request that's filtered out.
