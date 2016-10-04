@@ -24,22 +24,19 @@ Limitations on infrastructure capacity can hinder growth. Often a client will fi
 :--- | :---: | :---: | :---: |
 AD Filter Setting | 0% | 20% | 60% |
 Allowable QPS | 42,432 | 53,040 | 106,080 |
-*Revenue*
-| | | |
-Incoming Revenue | $113,294 | $141,617 | $283,235 
-Revenue Retention Rate | 100% | 99% | 78% 
-Retained Revenue | $113,294 | $141,008 | $220,753 
-*Cost*
-| | | |
-Incoming QPS | 42,432 | 53,040 | 106,080 
-Filter Rate | 0% | 20% | 60% 
-QPS Cost | $63,648 | $63,648 | $63,648 
-*Profit*
-| | | |
-Profit After Filtering | $49,646 | $77,360 | $157,105 
-AD Fees | $0 | $9,314 | $33,238 
-Final Profit | $49,646 | $68,046 | $123,867 
- | | | | | 
-% INCREASE IN PROFIT | 0.0% | 37.1% | 149.5% 
+ **Revenue** | | | |
+Incoming Revenue | $113,294 | $141,617 | $283,235 |
+Revenue Retention Rate | 100% | 99% | 78% |
+Retained Revenue | $113,294 | $141,008 | $220,753 |
+ **Cost** | | | |
+Incoming QPS | 42,432 | 53,040 | 106,080 |
+Filter Rate | 0% | 20% | 60% |
+QPS Cost | $63,648 | $63,648 | $63,648 |
+ **Profit** | | | |
+Profit After Filtering | $49,646 | $77,360 | $157,105 |
+AD Fees | $0 | $9,314 | $33,238
+Final Profit | $49,646 | $68,046 | $123,867 |
+ | | | |
+ **% INCREASE IN PROFIT | 0.0% | 37.1% | 149.5% |**
 
 In the example above, the greater the filter rate, the greater the QPS (and potential revenue!) the client can expose themselves to. Filtering cuts back dramatically on costs, but only moderately on revenue, increasing profit with every unproductive bid request that's filtered out.
