@@ -31,10 +31,7 @@ Filter Rate | 0% | 20% | 60% |
 QPS Cost | $63,648 | $63,648 | $63,648 |
  **Profit** | | | |
 Profit After Filtering | $49,646 | $77,360 | $157,105 |
-AD Fees | $0 | $9,314 | $33,238
-Final Profit | $49,646 | $68,046 | $123,867 |
- | | | |
- **% Increase in Profit** | **0.0%** | **+37%** | **+150%** |
+ **% Increase in Profit** | **0%** | **+56%** | **+216%** |
 
 In the example above, the greater the filter rate, the greater the QPS (and potential revenue!) the client can expose themselves to. Filtering cuts back dramatically on costs, but only moderately on revenue, increasing profit with every unproductive bid request that's filtered out.
 
@@ -55,9 +52,6 @@ Filter Rate | 0% | 20% | 50% |
 QPS Cost | $127,296 | $101,837 | $63,648 |
  **Profit** | | | |
 Profit After Filtering | $99,291 | $123,776 | $128,498 |
-AD Fees | $0 | $8,345 | $9,762
-Final Profit | $99,291 | $115,431 | $118,736 |
- | | | |
- **% Increase in Profit** | **0%** | **+16%** | **+20%** |
+ **% Increase in Profit** | **0%** | **+25%** | **+29%** |
 
 In the example above, the greater the filter rate, the lower the bidstream cost (QPS) the client incurs. As in the case of maximizing revenue, filtering cuts back dramatically on costs, but only moderately on revenue, allowing for a dramatic scaleback in infrastructure.
