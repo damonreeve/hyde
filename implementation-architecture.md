@@ -66,3 +66,5 @@ This should be changed to the a URL supplied by Authenticated which will point t
 In specific circumstances (particularly under high load conditions) it is possible for Bidstream Optimizer to recieve specific fields from a stream and respond with whether the request should be filtered. This is a more conventional `Pre-bid` implementation but would require the platform to be able to act on the information that is passed back from Bidstream Optimizer.
 
 > Note this is a deep integration and not a standard implementation of Bidstream Optimizer. There is no failover protection required as Bidstream Optimizer is simply acting as a data enrichment partner.
+
+![SIDE LOAD](https://docs.google.com/drawings/d/1AaAgIoOovc-v1vTnrn4GuYraMjG1nEbcicggkpCcIs0/pub?w=934&h=526)
