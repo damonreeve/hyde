@@ -3,54 +3,42 @@ layout: page
 title: Bidstream Optimizer Trial One-pager
 ---
 
-Something we get asked a bit is "what's the fastest and easiest way to try out Optimizer?". 
-
-Bidstream Optimizer can do amazing things for platform performance, and deploying can be relatively simple, but it can touch many different parts of a platforms architecture and therefore involve many people in decision-making and onboarding.
-
-So what's the easiest way to evaluate Optimizer to see if its right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
+Bidstream Optimizer can do amazing things for platform performance, and while deploying it can be relatively simple, the process can touch many different parts of a platform's architecture and therefore involve a lot of people in the onboarding process. So what's the easiest way to try Optimizer, and see if it's right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
 
 __5 Steps to a Bidstream Optimizer trial__
 
 1. Choose supply to evaluate
-1. Pick a datacenter
-1. Determine KPIs
-1. Go Live
-1. Review Performance
+2. Pick a datacenter
+3. Determine KPIs
+4. Go Live
 
-## Choose supply to evaluate
+## 1. Choose Supply to Evaluate
 
-Optimizer is designed to manage a supply stream. When onboarding we generally will migrate suppliers one at a time. So to run a trial pick one supplier that you want to evaluate. Don't make it your best performing supplier. Choose one that is causing you problems and you were about to cancel them. The risk to you is much lower that way. Maybe they aren't generating many matched requests. Or maybe there are concerns about supply quality.
+Optimizer is designed to manage a supply stream. When onboarding, we will generally will migrate one supplier at a time. So to run a trial, pick just one supplier that you want to evaluate; perhaps one that is causing you problems, or one that you were considering canceling anyway due to cost or quality concerns. Then the risk to you is minimal.
 
-## Pick a data-center
+## 2. Select the Optimal Data Center
 
-Overall latency is a big challenge in programmatic advertising. In a full deployment Optimizer will generally be co-locat in your datacenter or with your cloud provider (if we aren't there already). If you are operating from multiple datacenters then we will co-locate in multiple datacenters.
+Just as it's easiest to start with one supplier and then expand, it's easiest to integrate with one data center for the duration of a trial. Ideally, your test data center is near an AWS or GCE location (such as Virginia or Frankfurt), and we can be assured that latency will be low. We can test the TTL from your chosen data center to the nearest Authenticated data center to ensure minimal impact.
 
-For a trial pick one datacenter. If it's a datacenter that's in or near an AWS or GCE location (eg Virginia or California or Frankfurt) then we won't need to install anything as latency between our platforms will be low. 
+## 3. Determine KPIs
 
-## Determine KPIs
+Before running a trial, it's important to know what success looks like. This is of course dependent on your organization's goals, and A|D will work with you to carve out reliable metrics and benchmarks. Below are some examples from our existing client base:
 
-It's always good to know what success looks like before running a trial. Nice to know what we are aiming for!
+| Strategy | Metric |
+| :--------: | :--------: |
+| Maximize revenue without increasing infrastructure costs | **Profit margin**: (Revenue - QPS costs)/QPS costs |
+| Minimize costs given a fixed revenue stream | **Profit margin**: (Revenue - QPS costs)/QPS costs |
+| Remove fraudulent inventory from my bidstream | **Authentication rate**: Authentic impressions/Total impressions |
+| Cut out indirect inventory (remove arbitrage and duplicate header bids) | **Direct traffic rate**: Direct impressions/Total impressions |
 
-This is largely dependent on what you are trying to achieve as a business. As a prompt here are some of the more common ones
+## 4. Go Live!
 
-<table>
-<tr><th>Strategy</th><th>Description</th><th>Measure</th></tr>
-<tr><td>Maximise revenue with constant QPS</td><td>I want to cap the inbound QPS from this supplier and maximise the revenue I generate from them</td><td>Revenue / QPS</td></tr>
-<tr><td>Constant Revenue with minimum QPS</td><td>I want to cap the demand I am giving to this supplier and want to reduce the bidstream down to the minimum possible</td><td>Revenue / QPS</td></tr>
-<tr><td>Fraud and Quality filtering</td><td>I want to remove all fraudulent and low/zero quality inventory from the suppliers stream</td><td>Authentication Rate</td></tr>
-<tr><td>Direct inventory</td><td>I only want directly sourced inventory from the supplier (remove arbitrage and duplicate header bidding requests from the bidstream) without losing access to supply</td><td>Direct %; count(distinct domains/apps)</td></tr>
-</table>
+Going live can be boiled down to just a few simple tasks, as follows:
 
-## Go Live!
-
-Once we have determined the supplier, which location we are testing and what our test criteria are it's time to go live. Here is the list of simple tasks for onboarding
-
-<table>
-<tr><th>Task</th><th>Who</th><th>Description</th></tr>
-<tr><td>Sign a test agreement</td><td>Both</td><td>The test period is no charge, but it's good to have a simple agreement that covers each party for the test</td></tr>
-<tr><td>Create a new Optimizer account</td><td>Authenticated</td><td>So you have access to our admin console, generate api keys and endpoints</td></tr>
-<tr><td>Update Optimizer with bidder endpoint</td><td>Authenticated</td><td>This is so Optimizer send requests to the right place</td></tr>
-<tr><td>Test/QA</td><td>Authenticated/You</td><td>Test the configuration to make sure data is flowing end-to-end</td></tr>
-<tr><td>Update supplier with new Authenticated endpoint</td><td>Supplier/Authenticated</td><td>This then sends the bidstream to Authenticated instead of directly to your bidder. This can also be CNAMED from your DNS provider rather than updating the endpoint if preferred</td></tr>
-<tr><td>Monitor bidstream</td><td>You</td><td>Real-time monitoring will activate so you can see the profile of your bidstream. We can immediately begin applying filters based on your target strategy</td></tr>
-</table>
+| Task | Description | Who's Responsible |
+:--------: | :--------: | :--------: |
+| 1. Sign a test agreement | There's no charge for a trial, but test agreements are important for setting expectations. | Client/AD |
+| 2. Create an Optimizer account | This gives you access to our admin console, and generates API keys and endpoints. | AD |
+| 3. Test and QA | Test the configuration to ensure that data is flowing end-to-end. | Client/AD |
+| 4. Update test supplier with the new AD endpoint | This step reroutes traffic from your bidder to AD; alternatively, this can be CNAMED from your DNS provider. | Supplier/AD |
+| 5. Monitor bidstream | AD has a variety of dashboards that will allow you to monitor the real-time performance of your AD bidstream, and propose changes to your filters. | Client |
