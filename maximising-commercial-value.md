@@ -41,22 +41,6 @@ Outbound Net Revenue | $24,627 | $24,627 | $24,627 | $24,627 | $24,627
 Infrastructure | $11,764 | $10,051 | $8,609 | $7,185 | $4,000
 Cost Reduction | 0 | 1.6% | 10.2% | 18.7% | 37.6%
 
-
-<table class="case-study">
-<tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
-<tr><td class="l">Inbound QPS</td><td>7,843</td><td>8,376</td><td>9,565</td><td>11,975</td><td>13,333</td></tr>
-<tr><td class="l">Inbound Net Revenue</td><td>$24,627</td><td>$26,301</td><td>$30,036</td><td>$37,602</td><td>$41,867</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Impression Filter Rate</td><td>0%</td><td>20%</td><td>40%</td><td>60%</td><td>80%</td></tr>
-<tr><td class="l">Revenue Filter Rate</td><td>0%</td><td>6.3%</td><td>18.0%</td><td>34.5%</td><td>41.1%</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Outbound QPS</td><td>7,843</td><td>6,701</td><td>5,739</td><td>4,790</td><td>2,666</td></tr>
-<tr><td class="l">Outbound Net Revenue</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td><td>$24,627</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class="l">Infrastructure</td><td>$11,764</td><td>$10,051</td><td>$8,609</td><td>$7,185</td><td>$4,000</td></tr>
-<tr><td class="l">Cost Reduction</td><td>0</td><td>1.6%</td><td>10.2%</td><td>18.7%</td><td>37.6%</td></tr>
-</table>
-
 Actual platform revenue (`Outbound Net Revenue`) is fixed at $24,627. As the filter rate increases so does the inbound QPS to ensure there are enough relevant impressions passing through the filter to meet demand.
 
 As the filtering increases and the bidstream becomes more relevant, infrastructure costs start to come down (`Infrastructure`)as the platform doesn't need to process as many requests (`Outbound QPS`).
@@ -66,6 +50,19 @@ In this case study, infrastructure costs savings of over 37% were achieved with 
 ## 2. Increasing Bidstream Revenue (Constant QPS)
 
 If growth is constrained by infrastructure capacity and there is significant latent demand available, then a different commercial model can be applied, where the inbound bidstream to the platform is fixed and the most relevant bidstream is passed into the system to meet the latent demand.
+
+ | BASELINE | LOW  | MEDIUM  | HIGH  | MAX  
+Inbound QPS | 7,843 | 9,803 | 13,071 | 19,607 | 39,215 
+Inbound Net Revenue | $24,627 | $30,783 | $41,045 | $61,567 | $12,3135 
+ | | | | | 
+Impression Filter Rate | 0% | 20% | 40% | 60% | 80% 
+Revenue Filter Rate | 0% | 6.3% | 18.0% | 34.5% | 41.1% 
+ | | | | | 
+Outbound QPS | 7,843 | 7,843 | 7,843 | 7,843 | 7,843 
+Outbound Net Revenue | $24,627 | $28,823 | $33,653 | $40,322 | $72,430 
+ | | | | | 
+Infrastructure | $11,764 | $11,764 | $11,764 | $11,764 | $11,764 
+Profit Uplift | 0% | 15.0% | 41.3% | 77.6% | 252.3% 
 
 <table class="case-study">
 <tr><td></td><td>BASELINE</td><td>LOW </td><td>MEDIUM </td><td>HIGH </td><td>MAX </td></tr>
