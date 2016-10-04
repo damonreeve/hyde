@@ -5,67 +5,38 @@ title: Maximising commercial value
 
 # Case Study
 
-There are many different strategies that can be employed when using Bidstream Optimizer. You may want to
+Bidstream Optimizer is a powerful product, one that helps our clients achieve a variety of busines goals. Some of the most common Bidstream Optimizer strategies implemented by our clients include the following:
 
-* maximise commercial value from a throttled bidstream
-* remove arbitrage and duplicated bid requests
-* remove fraud, or simply 
+* Maximizing the commercial value of a bidstream
+* Removing arbitraged or duplicated bid requests
+* Removing fraudulent bid requests
+* Filtering out bid requests they can't sell
 
-Optimizer can implement these strategies in a simple, fast and controllable way.
+Bidstream Optimizer can execute on these strategies quickly and with minimal disruption. Results are immediate.
 
-Its important that with any changes you make to your bidstream there is a clear understanding of what success looks like and KPI's are measured.
+Let's look at the value of Bidstream Optimizer from the perspective of a client that wants to maximize the commercial value of their bidstream. We'll illustrate how intelligent filtering can dramatically increase revenue, even as the bidstream is held constant.
 
-Outlined here are the results of two similar strategies focusing on the commercial value of the bidstream, but with some important differences:
+## 1. Maximizing the commercial value of a bidstream
 
-1. Reducing QPS to meet demand
-1. Maximising Revenue
+Limitations on infrastructure capacity can hinder growth. Often a client will find themselves with the untapped demand, but it lies fallow until they can expand. Bidstream Optimizer can monetize this demand *with no increase in infrastructure cost* by intelligent filtering of the bidstream. Bid requests with minimal potential for revenue are filtered out, leaving a more potent bidstream flowing through the existing infrastructure. Let's look at an illustration:
 
-The key measure of success in both of these strategies is the revenue that is generated from the bidstream QPS (`Revenue / QPS`).
-
-## 1. Reducing QPS to meet demand
-
-In this strategy an assumption is made that there is no latent demand from the platform and the primary objective is to reduce costs by filtering the bidstream to meet available demand. Another assumption is that there is enough quality supply available to meet the demand. The point at which revenue starts to fall is the maximum filter rate available.
-
- | BASELINE | LOW | MEDIUM | HIGH | MAX
-:--- | ---: | ---: | ---: | ---: | ---:
-Inbound QPS | 7,843 | 8,376 | 9,565 | 11,975 | 13,333
-Inbound Net Revenue | $24,627 | $26,301 | $30,036 | $37,602 | $41,867
- |  |  |  |  | 
-Impression Filter Rate | 0% | 20% | 40% | 60% | 80%
-Revenue Filter Rate | 0% | 6.3% | 18.0% | 34.5% | 41.1%
- |  |  |  |  | 
-Outbound QPS | 7,843 | 6,701 | 5,739 | 4,790 | 2,666
-Outbound Net Revenue | $24,627 | $24,627 | $24,627 | $24,627 | $24,627
- |  |  |  |  | 
-Infrastructure | $11,764 | $10,051 | $8,609 | $7,185 | $4,000
-Cost Reduction | 0 | 1.6% | 10.2% | 18.7% | 37.6%
-
-Actual platform revenue (`Outbound Net Revenue`) is fixed at $24,627. As the filter rate increases so does the inbound QPS to ensure there are enough relevant impressions passing through the filter to meet demand.
-
-As the filtering increases and the bidstream becomes more relevant, infrastructure costs start to come down (`Infrastructure`)as the platform doesn't need to process as many requests (`Outbound QPS`).
-
-In this case study, infrastructure costs savings of over 37% were achieved with zero impact on revenue.
-
-## 2. Increasing Bidstream Revenue (Constant QPS)
-
-If growth is constrained by infrastructure capacity and there is significant latent demand available, then a different commercial model can be applied, where the inbound bidstream to the platform is fixed and the most relevant bidstream is passed into the system to meet the latent demand.
-
- | BASELINE | LOW  | MEDIUM  | HIGH  | MAX  
-:--- | ---: | ---: | ---: | ---: | ---:
-Inbound QPS | 7,843 | 9,803 | 13,071 | 19,607 | 39,215 
-Inbound Net Revenue | $24,627 | $30,783 | $41,045 | $61,567 | $12,3135 
+ | BASELINE | CONSERVATIVE  | AGGRESSIVE  
+:--- | ---: | ---: | ---:
+A|D Filter Setting | 0% | 20% | 60% 
+Allowable QPS | 42,432 | 53,040 | 106,080 
  | | | | | 
-Impression Filter Rate | 0% | 20% | 40% | 60% | 80% 
-Revenue Filter Rate | 0% | 6.3% | 18.0% | 34.5% | 41.1% 
+Incoming Revenue | $113,294 | $141,617 | $283,235 
+Revenue Retention Rate | 100% | 99% | 78% 
+Retained Revenue | $113,294 | $141,008 | $220,753 
  | | | | | 
-Outbound QPS | 7,843 | 7,843 | 7,843 | 7,843 | 7,843 
-Outbound Net Revenue | $24,627 | $28,823 | $33,653 | $40,322 | $72,430 
+Incoming QPS | 42,432 | 53,040 | 106,080 
+Filter Rate | 0% | 20% | 60% 
+QPS Cost | $63,648 | $63,648 | $63,648 
  | | | | | 
-Infrastructure | $11,764 | $11,764 | $11,764 | $11,764 | $11,764 
-Profit Uplift | 0% | 15.0% | 41.3% | 77.6% | 252.3% 
+Profit After Filtering | $49,646 | $77,360 | $157,105 
+A|D Fees | $0 | $9,314 | $33,238 
+Final Profit | $49,646 | $68,046 | $123,867 
+ | | | | | 
+% INCREASE IN PROFIT | 0.0% | 37.1% | 149.5% 
 
-In this study the QPS to the platform (`Output QPS`) is kept constant at 7,843 QPS. The `Inbound QPS` to Optimizer is increased to find the most relevant bid requests for the latent demand growing from 7,843 to 39,215 QPS. 
-
-The net revenue impact is significant growing to more than 2.5x with maximum filtering.
-
------
+In the example above, the greater the filter rate, the greater the QPS (and potential revenue!) the client can expose themselves to. Filtering cuts back dramatically on costs, but only moderately on revenue, increasing profit with every unproductive bid request that's filtered out.
