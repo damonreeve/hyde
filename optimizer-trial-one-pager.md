@@ -3,20 +3,20 @@ layout: page
 title: Bidstream Optimizer Trial One-pager
 ---
 
-Bidstream Optimizer can do amazing things for platform performance, and while deploying it can be relatively simple, the process can touch many different parts of a platform's architecture and therefore involve a lot of people in the onboarding process. So what's the easiest way to try Optimizer, and see if it's right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
+Bidstream Optimizer can do amazing things for your platform's performance, and while deploying it can be relatively simple, the process can touch many different parts of a platform's architecture, and thus involve a lot of people in the onboarding process. So what's the easiest way to try Optimizer, and see if it's right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
 
-__5 Steps to a Bidstream Optimizer trial__
+__4 Steps to a Bidstream Optimizer trial__
 
-1. Choose supply to evaluate
-2. Pick a datacenter
+1. Choose a Supplier You'd Like to Evaluate
+2. Pick a Data Center
 3. Determine KPIs
 4. Go Live
 
-## 1. Choose Supply to Evaluate
+## 1. Choose a Supplier You'd Like to Evaluate
 
 Optimizer is designed to manage a supply stream. When onboarding, we will generally will migrate one supplier at a time. So to run a trial, pick just one supplier that you want to evaluate; perhaps one that is causing you problems, or one that you were considering canceling anyway due to cost or quality concerns. Then the risk to you is minimal.
 
-## 2. Select the Optimal Data Center
+## 2. Pick a Data Center
 
 Just as it's easiest to start with one supplier and then expand, it's easiest to integrate with one data center for the duration of a trial. Ideally, your test data center is near an AWS or GCE location (such as Virginia or Frankfurt), and we can be assured that latency will be low. We can test the TTL from your chosen data center to the nearest Authenticated data center to ensure minimal impact.
 
