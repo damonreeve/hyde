@@ -9,7 +9,7 @@ There are a number of different configurations that can be utilized when deployi
 1. [Change API endpoints](#change-api-endpoints)
 1. [Side Loading](#side-loading)
 
-<a name="cname-dns-recommended-architecture-"></a>
+<a id="cname-dns-recommended-architecture-"></a>
 ## Recommended architecture - CNAME DNS
 
 The following architecture provides the highest level of control and flexibility for the both the client and Authenticated in managing all failover scenarios.
@@ -47,7 +47,7 @@ An optional step to protect the bidder from being flooded with requests in the e
 ```
 failover.[CLIENT].com
 ```
-<a name="change-api-endpoints"></a>
+<a id="change-api-endpoints"></a>
 ## Change API endpoints
 
 Changing API endpoints with the supplier is a simpler implementation to making any CNAME DNS change.
