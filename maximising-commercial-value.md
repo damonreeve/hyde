@@ -10,7 +10,6 @@ There are many different strategies that can be employed when using Bidstream Op
 * maximise commercial value from a throttled bidstream
 * remove arbitrage and duplicated bid requests
 * remove fraud, or simply 
-* filter requests that you can't sell
 
 Optimizer can implement these strategies in a simple, fast and controllable way.
 
