@@ -20,21 +20,24 @@ Let's look at the value of Bidstream Optimizer from the perspective of a client 
 
 Limitations on infrastructure capacity can hinder growth. Often a client will find themselves with the untapped demand, but it lies fallow until they can expand. Bidstream Optimizer can monetize this demand *with no increase in infrastructure cost* by intelligent filtering of the bidstream. Bid requests with minimal potential for revenue are filtered out, leaving a more potent bidstream flowing through the existing infrastructure. Let's look at an illustration:
 
- | BASELINE | CONSERVATIVE  | AGGRESSIVE  
-:--- | ---: | ---: | ---:
-A|D Filter Setting | 0% | 20% | 60% 
-Allowable QPS | 42,432 | 53,040 | 106,080 
- | | | | | 
+ | BASELINE | CONSERVATIVE  | AGGRESSIVE |
+:--- | :---: | :---: | :---: |
+AD Filter Setting | 0% | 20% | 60% |
+Allowable QPS | 42,432 | 53,040 | 106,080 |
+*Revenue*
+| | | |
 Incoming Revenue | $113,294 | $141,617 | $283,235 
 Revenue Retention Rate | 100% | 99% | 78% 
 Retained Revenue | $113,294 | $141,008 | $220,753 
- | | | | | 
+*Cost*
+| | | |
 Incoming QPS | 42,432 | 53,040 | 106,080 
 Filter Rate | 0% | 20% | 60% 
 QPS Cost | $63,648 | $63,648 | $63,648 
- | | | | | 
+*Profit*
+| | | |
 Profit After Filtering | $49,646 | $77,360 | $157,105 
-A|D Fees | $0 | $9,314 | $33,238 
+AD Fees | $0 | $9,314 | $33,238 
 Final Profit | $49,646 | $68,046 | $123,867 
  | | | | | 
 % INCREASE IN PROFIT | 0.0% | 37.1% | 149.5% 
