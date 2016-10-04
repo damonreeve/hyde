@@ -14,6 +14,7 @@ Bidstream Optimizer is a powerful product, one that helps our clients achieve a 
 
 Bidstream Optimizer can execute on these strategies quickly and with minimal disruption. Results are immediate. Let's look at some examples of these strategies at work.
 
+<a id="1--maximizing-the-revenue-for-a-given-infrastructure"></a>
 ## 1. Maximizing the revenue for a given infrastructure
 
 Limitations on infrastructure capacity can hinder growth. Often a client will find themselves with the untapped demand, but it lies fallow until they can expand. Bidstream Optimizer can monetize this demand *with no increase in infrastructure cost* by intelligent filtering of the bidstream. Bid requests with minimal potential for revenue are filtered out, leaving a more potent bidstream flowing through the existing infrastructure. Let's look at an illustration:
@@ -35,6 +36,7 @@ Profit After Filtering | $49,646 | $77,360 | $157,105 |
 
 In the example above, the greater the filter rate, the greater the QPS (and potential revenue!) the client can expose themselves to. Filtering cuts back dramatically on costs, but only moderately on revenue, increasing profit with every unproductive bid request that's filtered out.
 
+<a id="2--minimizing-infrastructure-costs"></a>
 ## 2. Minimizing infrastructure costs
 
 Other clients may not have as many opportunities for revenue growth, but instead want to cut down on the cost of their existing bidstream. 
