@@ -8,7 +8,7 @@ title: Failover
 There are a number of different configurations that can be utilized when deploying Bidstream Optimizer. Choosing the right one depends on individual preference based on the level of control and risk mitigation you want to introduce.
 
 1. [CNAME DNS (Recommended)](#cname-dns-recommended-architecture-)
-1. [Change API endpoints](change-api-endpoints)
+1. [Change API endpoints](#change-api-endpoints)
 1. [Side Loading](#side-loading)
 
 ## Recommended architecture - CNAME DNS
