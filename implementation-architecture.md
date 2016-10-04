@@ -62,7 +62,7 @@ This should be changed to the a URL supplied by Authenticated which will point t
 
 > In the event of an Authenticated system failure the supply stream URL will be changed from the Bidstream Optimizer URL to the Client Bidder URL.
 
-<a name="side-loading"></a>
+<a id="side-loading"></a>
 # Side Loading
 
 In specific circumstances (particularly under high load conditions) it is possible for Bidstream Optimizer to recieve specific fields from a stream and respond with whether the request should be filtered. This is a more conventional `Pre-bid` implementation but would require the platform to be able to act on the information that is passed back from Bidstream Optimizer.
