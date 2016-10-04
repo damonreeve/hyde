@@ -31,9 +31,12 @@ Before running a trial, it's important to know what success looks like. This is 
 | Remove fraudulent inventory from my bidstream | **Authentication rate**: Authentic impressions/Total impressions |
 | Cut out indirect inventory (remove arbitrage and duplicate header bids) | **Direct traffic rate**: Direct impressions/Total impressions |
 
+
 ## 4. Go Live!
 
+
 Going live can be boiled down to just a few simple tasks, as follows:
+
 
 | Task | Description | Who's Responsible |
 :--------: | :--------: | :--------: |
