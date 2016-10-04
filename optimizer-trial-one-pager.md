@@ -3,7 +3,9 @@ layout: page
 title: Bidstream Optimizer Trial One-pager
 ---
 
-Bidstream Optimizer can do amazing things for your platform's performance, and while deploying it can be relatively simple, the process can touch many different parts of a platform's architecture, and thus involve a lot of people in the onboarding process. So what's the easiest way to try Optimizer, and see if it's right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
+Bidstream Optimizer can do amazing things for your platform's performance, and while deploying it can be relatively simple, the process can touch many different parts of a platform's architecture, and thus involve a lot of people in the onboarding process. 
+
+So what's the easiest way to try Optimizer, and see if it's right for your platform? We've put this one-pager together to visualize what a quick evaluation of Optimizer can look like.
 
 __4 Steps to a Bidstream Optimizer trial__
 
