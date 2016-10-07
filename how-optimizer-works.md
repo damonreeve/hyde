@@ -15,11 +15,11 @@ Optimizer performs a very specific set of tasks very quickly. The objective is t
 
 ## Distributed Architecture
 
-Optimizer architecture is separated into Optimizer run-time nodes that are a stateless, distributed set of services that can be deployed into any data-center, and central services for deep level analysis and model maintenance.
+Optimizer architecture is separated into Optimizer run-time nodes that are a stateless, distributed set of services that can be deployed into any data-center, and central services for analysis and model training.
 
 ## Simple Implementation
 
-Optimizer run-time nodes will generally be co-located inside or near a clients data-center to reduce any connectivity latency between the Optimizer service and the client's platform. Read more about [Deployment Scenario's](deployment-scenarios).
+Optimizer nodes will generally be co-located inside or near a clients data-center to reduce any connectivity latency between the Optimizer service and the client's platform. Read more about [Deployment Scenario's](deployment-scenarios).
 
 ## 5-Step run-time process
 
