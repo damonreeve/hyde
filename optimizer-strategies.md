@@ -17,7 +17,7 @@ These strategies are most suited to a demand platform (DSP) or a supply platform
 
 Strategy | Description | Metric
 :--- | :--- | :---
-Remove low quality inventory | :--- | :---
+Remove low quality inventory | I want to remove any fraudulent or low quality inventory from my bidstream | Authentication Rate
 Reduce infrastructure costs without affecting topline revenue | :--- | :---
 Maximize top line revenue but not increase infrastructure costs | :--- | :---
 Enrich bid requests with new data to maximize revenue (as a supplier) | :--- | :---
