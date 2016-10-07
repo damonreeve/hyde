@@ -5,12 +5,12 @@ title: Implementation Architecture
 
 There are a number of different configurations that can be utilized when deploying Bidstream Optimizer. Choosing the right one depends on individual preference based on the level of control and risk mitigation you want to introduce.
 
-1. [CNAME DNS (Recommended)](#cname-dns-recommended-architecture-)
+1. [CNAME DNS (Recommended)](#cname-dns--recommended-)
 1. [Change API endpoints](#change-api-endpoints)
 1. [Side Loading](#side-loading)
 
-<a id="cname-dns-recommended-architecture-"></a>
-## Recommended architecture - CNAME DNS
+<a id="cname-dns--recommended-"></a>
+## CNAME DNS (Recommended)
 
 The following architecture provides the highest level of control and flexibility for the both the client and Authenticated in managing all failover scenarios.
 
