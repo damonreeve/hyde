@@ -25,8 +25,8 @@ Optimizer nodes will generally be co-located inside or near a clients data-cente
 
 Step | Type | Description | Example
 --- | --- | --- | ---
-Basic Filtering | --- | --- | ---
-Quality and Fraud Filtering | --- | --- | ---
-Commercial Profiling | --- | --- | ---
-Data Enrichment | --- | --- | ---
-Throttling | --- | --- | ---
+Basic Filtering | FILTER | Filters bid requests that match a pre-defined rule | Remove any native impression objects as I don't buy native placements
+Quality and Fraud Filtering | ML | --- | ---
+Commercial Profiling | ML | --- | ---
+Data Enrichment | ENRICH | --- | ---
+Throttling | FILTER | --- | ---
