@@ -7,7 +7,7 @@ Bidstream Optimizer analyzes in real-time a stream of bid requests that passes f
 
 Optimizer is designed as a pre-processor to make generalised decisioning that doesn't interfere with the specific decisioning an exchange or DSP makes.
 
-![Optimizer Architecture](https://docs.google.com/drawings/d/1aTqqnJSk6gunFY6p2bSZY_VG7h3ZTyuTvoGfbRwvT0E/pub)
+![Optimizer Architecture](https://docs.google.com/drawings/d/1aTqqnJSk6gunFY6p2bSZY_VG7h3ZTyuTvoGfbRwvT0E/pub?)
 
 ## Built for scale
 
