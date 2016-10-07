@@ -24,7 +24,7 @@ Optimizer nodes will generally be co-located inside or near a clients data-cente
 ## 5-Step run-time process
 
 Step | Type | Description | Example
---- | --- | --- | ---
+:--- | :--- | :--- | :---
 Basic Filtering | FILTER | Filters bid requests that match a pre-defined rule | Filter any native request objects as I don't buy native placements
 Quality and Fraud Filtering | ML | Scores bid requests for quality and fraud measures and provides thresholds for filtering | Filter any requests where the probability it is bot traffic is > 90% 
 Commercial Profiling | ML | Predicts the commercial outcome of the request | Filter the request if the probability of winning the the impression is < 10%
