@@ -21,12 +21,10 @@ Optimizer run-time nodes will generally be co-located inside or near a clients d
 
 ## 5-Step run-time process
 
-The 5 primary steps every bid request passes through is:
-
-1. Basic Filtering
-1. Quality and Fraud Filtering
-1. Commercial Profiling
-1. Data Enrichment
-1. Throttling
-
-### Basic Filtering
+Step | Type | Description | Example
+--- | --- | --- | ---
+Basic Filtering | --- | --- | ---
+Quality and Fraud Filtering | --- | --- | ---
+Commercial Profiling | --- | --- | ---
+Data Enrichment | --- | --- | ---
+Throttling | --- | --- | ---
