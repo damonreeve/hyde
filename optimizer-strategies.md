@@ -3,7 +3,7 @@ layout: page
 title: Optimizer Strategies
 ---
 
-Might be a simple thing to ask but not always so simple to answer. There are competing objectives and things to think about in everything we do, so you may be trying to achieve many things when introducing Bidstream Optimizer.
+Might be a simple thing to ask but not always so simple to answer as you may be trying to achieve more than one thing when introducing Bidstream Optimizer.
 
 ## Define a Strategy - What does success look like?
 
