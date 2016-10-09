@@ -5,12 +5,12 @@ title: Implementation Architecture
 
 There are a number of different configurations that can be utilized when deploying Bidstream Optimizer. Choosing the right one depends on individual preference based on the level of control and risk mitigation you want to introduce.
 
-1. [CNAME DNS (Recommended)](#cname-dns--recommended-)
-1. [Change API endpoints](#change-api-endpoints)
-1. [Side Loading](#side-loading)
+1. [CNAME DNS (Recommended)](#1--cname-dns--recommended-)
+1. [Change API endpoints](#2--change-api-endpoints)
+1. [Side Loading](#3--side-loading)
 
-<a id="cname-dns--recommended-"></a>
-## CNAME DNS (Recommended)
+<a id="1--cname-dns--recommended-"></a>
+## 1. CNAME DNS (Recommended)
 
 The following architecture provides the highest level of control and flexibility for the both the client and Authenticated in managing all failover scenarios.
 
@@ -52,8 +52,8 @@ An optional step to protect the bidder from being flooded with requests in the e
 failover.[CLIENT].com
 ```
 
-<a id="change-api-endpoints"></a>
-## Change API endpoints
+<a id="2--change-api-endpoints"></a>
+## 2. Change API endpoints
 
 Changing API endpoints with the supplier is a simpler implementation to making any CNAME DNS change.
 
@@ -68,8 +68,8 @@ This should be changed to the a URL supplied by Authenticated which will point t
 
 > In the event of an Authenticated system failure the supply stream URL will be changed from the Bidstream Optimizer URL to the Client Bidder URL.
 
-<a id="side-loading"></a>
-# Side Loading
+<a id="3--side-loading"></a>
+# 3. Side Loading
 
 In specific circumstances (particularly under high load conditions) it is possible for Bidstream Optimizer to recieve specific fields from a stream and respond with whether the request should be filtered. This is a more conventional `Pre-bid` implementation but would require the platform to be able to act on the information that is passed back from Bidstream Optimizer.
 
