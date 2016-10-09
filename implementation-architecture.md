@@ -9,6 +9,8 @@ There are a number of different configurations that can be utilized when deployi
 1. [Change API endpoints](#2--change-api-endpoints)
 1. [Side Loading](#3--side-loading)
 
+Whether you are a DSP or an SSP/Exchange any of these implementations are applicable. 
+
 <a id="1--cname-dns--recommended-"></a>
 ## 1. CNAME DNS (Recommended)
 
