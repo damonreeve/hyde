@@ -36,39 +36,50 @@ Turn on new demand | :--- | :---
 <a id="#reduce-opex-without-affecting-spend"></a>
 ### Reduce OPEX without affecting spend
 
-Objective
+#### Objective
 
 You have steady/fixed demand but the volume of bid requests you have to manage is rising. You want to remove bid requests that aren't generating any value from your bidstream to reduce infrastructure costs and platform load.
 
-Background
+#### Background
 
 There are underlying causes for the rise in bid requests: header bidding, bid duplication by exchanges/SSPs and arbitrage. There are also many bid requests that are passed in streams that have zero value to the demand partner. For example, if you only buy video inventory then you only want to receive video inventory in your stream. But often this is not the case.
 
-Strategy
+#### Strategy
 
 With Bidstream Optimizer you can implement a commercial strategy to remove supply that is generating no bid activity. This will slowly remove from the bidstream those requests that are not relevant ensuring that spend levels are not affected in any way. There is always a percentage of inventory that is allowed through in the bidstream as a control group to ensure that inventory is not filtered out that may meet future demand.
 
-KPIS
+#### KPIS
 
 KPI | Description
 :--- | :---
 Gross Spend | Should be monitored to ensure there is minimal impact on Gross Spend
 Gross Spend / QPS | This value should be rising compared to the control group. As the spend stays constant but the overall volume of supply reduces the Spend / QPS will rise
 
-Controls - Adjusting Strategy
+#### Setting the Strategy
 
 Different levels of filtering can be applied to Optimizer to reduce the bidstream. The more aggressive the filtering the greater the risk to Gross Spend, but also the greater the reduction in OPEX. Deciding what the "threshold" should be is individual choice.
 
-This is best illustrated in the following chart:
+This is best illustrated in this chart, which shows for a single campaign the impact different filter rates have on spend.
 
+[insert the elbow chart]
 
+In this chart the filter rate has an effect on spend. However, the line between the dots is not linear and so it's best to set your initial filter rate somewhere near where the line creates an `elbow`. This is where maximum value is being generated from optimizer. If you want to be more conservative initially then bring the filter rate lower than the elbow. If you want to be more aggressive then keep it on the elbow or higher.
 
+> It's important to note that this is a model. In reality what will happen is when the filter is applied, more inventory that is a better match for the campaign will be introduced to the stream, and maintaining spend levels.
 
-Run-time Monitoring
+#### Monitoring
 
+There are two ways to monitor your strategy to make adjustments accordingly.
 
+__Runtime Monitoring__
 
+Monitor in real-time your two KPIs compared to the control group to ensure `Spend / QPS` is inline with expectations:
 
+[insert a row of datadog widgets for spend / qps]
+
+__Analysis Reporting__
+
+Monitor the `elbow` compared to your filter rate and ensure that you are setting your filter rate in line with business goals. Adjust accordingly by contacting your account manager or managing directly using the Optimizer API.
 
 ### Remove low quality inventory
 ### Maximize top line revenue but not increase infrastructure costs
