@@ -69,7 +69,7 @@ __Runtime Monitoring__
 
 Monitor in real-time your two KPIs compared to the control group to ensure `Spend / QPS` is inline with expectations:
 
-![Datadog Spend Monitoring](monitor-spend.png)
+![Datadog Spend Monitoring](https://damonreeve.github.io/optimizer-docs/monitor-spend.png)
 
 __Analysis Reporting__
 
