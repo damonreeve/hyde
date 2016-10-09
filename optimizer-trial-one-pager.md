@@ -27,7 +27,7 @@ Just as it's easiest to start with one supplier and then expand, it's easiest to
 Before running a trial, it's important to know what success looks like. This is of course dependent on your organization's goals, and A|D will work with you to carve out reliable metrics and benchmarks. Below are some examples from our existing client base:
 
 | Strategy | Metric |
-| :--------: | :--------: |
+| :-------- | :-------- |
 | Maximize revenue without increasing infrastructure costs | **Profit margin**: (Revenue - QPS costs)/QPS costs |
 | Minimize costs given a fixed revenue stream | **Profit margin**: (Revenue - QPS costs)/QPS costs |
 | Remove fraudulent inventory from my bidstream | **Authentication rate**: Authentic impressions/Total impressions |
@@ -41,7 +41,7 @@ Going live can be boiled down to just a few simple tasks, as follows:
 
 
 | Task | Description | Who's Responsible |
-:--------: | :--------: | :--------: |
+:-------- | :-------- | :-------- |
 | 1. Sign a test agreement | There's no charge for a trial, but test agreements are important for setting expectations. | Client/AD |
 | 2. Create an Optimizer account | This gives you access to our admin console, and generates API keys and endpoints. | AD |
 | 3. Test and QA | Test the configuration to ensure that data is flowing end-to-end. | Client/AD |
