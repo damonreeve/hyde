@@ -69,7 +69,7 @@ __Runtime Monitoring__
 
 Monitor in real-time your two KPIs compared to the control group to ensure `Spend / QPS` is inline with expectations:
 
-[insert a row of datadog widgets for spend / qps]
+![Datadog Spend Monitoring](monitor-spend.jpg)
 
 __Analysis Reporting__
 
