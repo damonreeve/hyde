@@ -19,7 +19,7 @@ Optimizer architecture is separated into run-time Optimizer Nodes that are a sta
 
 ## Simple Implementation
 
-Optimizer Nodes are generally co-located inside or near a clients data-center to reduce any connectivity latency between the Optimizer service and the Customer Platform. Read more about [Deployment Scenario's](deployment-scenarios).
+Optimizer Nodes are generally co-located inside or near a clients data-center to reduce any connectivity latency between the Optimizer service and the Customer Platform. Read more about [Deployment Scenario's](/#deployment-scenarios).
 
 <a id="5-step-run-time-process"></a>
 ## 5-Step run-time process
