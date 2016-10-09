@@ -11,6 +11,10 @@ While there may be more than one ambition it's good to have an overarching objec
 
 To help we have described here some popular strategies worth considering. More than one of these may be important but aim for one to be primary.
 
+* [Demand Strategies](#demand-side-strategies)
+* [Supply Strategies](#supply-side-strategies)
+
+<a id="#demand-side-strategies"></a>
 ## Demand-side Strategies
 
 These strategies are most suited to a demand platform (DSP) or a supply platform that is ingesting inventory from a third party via API.
@@ -22,16 +26,6 @@ Remove low quality inventory | I want to remove any fraudulent or low quality in
 Maximize top line revenue but not increase infrastructure costs | :--- | :---
 Enrich bid requests with new data to maximize revenue (as a supplier) | :--- | :---
 Turn on new supply | :--- | :---
-
-## Supply-side Strategies
-
-These strategies are for a supply platform that is managing the outbound bidstream it is sending to it's demand partners.
-
-Strategy | Description | Metric
-:--- | :--- | :---
-Profile demand partner bidstream to inventory that generates value to a fixed output QPS | :--- | :---
-Enrich bid requests with new data to maximize revenue | :--- | :---
-Turn on new demand | :--- | :---
 
 <a id="#reduce-opex-without-affecting-spend"></a>
 ### Reduce OPEX without affecting spend
@@ -88,3 +82,15 @@ Monitor the `elbow` compared to your filter rate and ensure that you are setting
 ### Profile demand partner bidstream to inventory that generates value to a fixed output QPS
 ### Enrich bid requests with new data to maximize revenue
 ### Turn on new demand
+
+<a id="#supply-side-strategies"></a>
+## Supply-side Strategies
+
+These strategies are for a supply platform that is managing the outbound bidstream it is sending to it's demand partners.
+
+Strategy | Description | Metric
+:--- | :--- | :---
+Profile demand partner bidstream to inventory that generates value to a fixed output QPS | :--- | :---
+Enrich bid requests with new data to maximize revenue | :--- | :---
+Turn on new demand | :--- | :---
+
