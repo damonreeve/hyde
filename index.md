@@ -17,10 +17,10 @@ Bidstream Optimizer can help a platform operator achieve those goals.
 
 ## Optimizer for Exchanges and SSPs
 
-Include here a diagram of how Optimizer can work for an SSP
+![ Implementation for Bidstream Optimizer - SSPs](https://docs.google.com/drawings/d/1-tbcsTDbvZVz3wvYNMcz3EQNftsa8R6bUHTmjVTsOkg/pub?w=807&h=361)
 
 ## Optimizer for DSPs
 
-Include here a diagram of how Optimizer can work for a DSP
+![ Implementation for Bidstream Optimizer - DSPs](https://docs.google.com/drawings/d/1ehqJAC2VRH7DRcsJjhYBG67qI-nt2BmuQhEi-XxNd20/pub?w=402&h=361)
 
 -----
