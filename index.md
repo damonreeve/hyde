@@ -15,7 +15,7 @@ Bidstream Optimizer is a technology that help platforms, [DSPs](#optimizer-for-d
 
 Bidstream Optimizer can help a platform operator achieve those goals.
 
-<a id="optimizer-for-exchanges-and-ssps"></a>
+<a id="#optimizer-for-exchanges-and-ssps"></a>
 ## Optimizer for Exchanges and SSPs
 
 Bidstream Optimizer can be integrated with an SSP in two different ways:
@@ -24,7 +24,7 @@ Bidstream Optimizer can be integrated with an SSP in two different ways:
 
 ![Implementation for Bidstream Optimizer - SSPs](https://docs.google.com/drawings/d/1-tbcsTDbvZVz3wvYNMcz3EQNftsa8R6bUHTmjVTsOkg/pub?w=807&h=361)
 
-<a id="optimizer-for-dsps"></a>
+<a id="#optimizer-for-dsps"></a>
 ## Optimizer for DSPs
 
 Bidstream Optimizer is integrated in front of the client bidder to manage inbound bidstreams from supply partners.
