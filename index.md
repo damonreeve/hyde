@@ -17,9 +17,15 @@ Bidstream Optimizer can help a platform operator achieve those goals.
 
 ## Optimizer for Exchanges and SSPs
 
+Bidstream Optimizer can be integrated with an SSP in two different ways:
+1. For managing inbound third party ad network or exchange API supply
+1. For managing outbound bidstreams sent to demand partners
+
 ![ Implementation for Bidstream Optimizer - SSPs](https://docs.google.com/drawings/d/1-tbcsTDbvZVz3wvYNMcz3EQNftsa8R6bUHTmjVTsOkg/pub?w=807&h=361)
 
 ## Optimizer for DSPs
+
+Bidstream Optimizer is integrated in front of the client bidder to manage inbound bidstreams from supply partners.
 
 ![ Implementation for Bidstream Optimizer - DSPs](https://docs.google.com/drawings/d/1ehqJAC2VRH7DRcsJjhYBG67qI-nt2BmuQhEi-XxNd20/pub?w=402&h=361)
 
