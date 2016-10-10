@@ -60,7 +60,7 @@ Each segment has subsegments that can be drilled in to. For example the News seg
 }
 ```
 
-The bidder needs to be set up to allow users to target these segments. Specific advice and documentation can be provided by each data provider.
+The bidder must be modified to allow end-users to target these segments. Specific advice and documentation can be provided by each data provider.
 
 ### Matching
 
@@ -70,18 +70,21 @@ Using the Grapeshot News segment example again, the bid request received from Bi
 
 ```
 {
-	"Grapeshot": {
-		"channels": [
-			{
-			  "name": "gs_news",
-			  "score": 54.300
-			},
-			{
-			  "name": "gs_news_and_weather",
-			  "score": 32.239
-			}
-		]
-	}
+	 "id": "67cb34fd-1bed-42ef-b247-89b48b9dfc6b",
+	 "ext": {
+	 	"Grapeshot": {
+			"channels": [
+				{
+					  "name": "gs_news",
+					  "score": 54.300
+				},
+				{
+					  "name": "gs_news_and_weather",
+					  "score": 32.239
+				}
+			]
+		}
+	 }
 }
 ```
 
