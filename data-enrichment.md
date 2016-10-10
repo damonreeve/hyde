@@ -66,7 +66,7 @@ The bidder must be modified to allow end-users to target these segments. Specifi
 
 When the bidder receives a bid request it must be able to interpret the new data being passed in the bid request and match to any campaigns accordingly.
 
-Using the Grapeshot News segment example again, the bid request received from Bidstram Optimizer for the URL `http://qz.com/805563` would look like this:
+Using the Grapeshot News segment example again, the bid request received from Bidstream Optimizer for the URL `http://qz.com/805563` would look like this:
 
 ```
 {
@@ -88,7 +88,7 @@ Using the Grapeshot News segment example again, the bid request received from Bi
 }
 ```
 
-### Bidstream Optimizer
+## Bidstream Optimizer
 
 Optimizer performs four primary functions
 
