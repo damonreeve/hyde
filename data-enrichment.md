@@ -88,6 +88,8 @@ Using the Grapeshot News segment example again, the bid request received from Bi
 }
 ```
 
+Any campaigns targeting `gs_news` or `gs_news_and_weather` can be matched to this bid request.
+
 ## Bidstream Optimizer
 
 Optimizer performs four primary functions
