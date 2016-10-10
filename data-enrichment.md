@@ -28,7 +28,7 @@ In the bidder configuration new fields need to be made available in campaign tar
 
 For example consider the following 24 standard targeting segments provided by Grapeshot:
 
-![Grapeshot Standard Segments]()
+![Grapeshot Standard Segments](https://damonreeve.github.io/optimizer-docs/grapeshot_segments.png)
 
 Each segment has subsegments that can be drilled in to. For example the News segment is structured in the following way:
 
