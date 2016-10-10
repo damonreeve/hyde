@@ -13,14 +13,77 @@ The purpose of the enrichment service is to provide platforms with a standard in
 
 ![Data Enrichment Workflow](https://docs.google.com/drawings/d/1CCpxSkW7agj19ZmJq_ZeBhp8kuBTxl1upUfVrQqItfA/pub?w=1020)
 
-### Bidder
+## Bidder
 
 There are two important changes that need to be made to the bidder:
 
-1. The bidder must be pre-configured to be able to allow for data from a specific data partner to be used in campaign planning
-1. The bidder needs to recognize the data in the bid request when making bids and target accordingly
+1. __Targeting__:The bidder must be pre-configured to be able to allow for data from a specific data partner to be used in campaign planning
+1. __Matching__:The bidder needs to recognize the data in the bid request when making bids and target accordingly
 
-Bidder modification is outside of the scope of the Optimizer enrichment service. In the docs for specific data partners we've described best practice and examples.
+Bidder modification is outside of the scope of the Optimizer enrichment service. The examples provided here are to explain how it works.
+
+### Targeting
+
+In the bidder configuration new fields need to be made available in campaign targeting and stored with the line item targeting parameters.
+
+For example consider the following 24 standard targeting segments provided by Grapeshot:
+
+![Grapeshot Standard Segments]()
+
+Each segment has subsegments that can be drilled in to. For example the News segment is structured in the following way:
+
+```
+"gs_news": {
+    "name": "gs_news",
+    "display_name": "gs_news",
+    "type": "standard",
+    "subtype": "reach",
+    "total": 2,
+    "channels": {
+        "gs_news_and_weather": {
+            "name": "gs_news_and_weather",
+            "display_name": "gs_news_and_weather",
+            "type": "standard",
+            "subtype": "primary",
+            "channelset": {
+                "english": {
+                    "published": "live",
+                    "readonly": true,
+                    "safety": false,
+                    "hidden": false,
+                    "active": true,
+                    "throttle": 1
+                }
+            }
+        }
+    }
+}
+```
+
+The bidder needs to be set up to allow users to target these segments. Specific advice and documentation can be provided by each data provider.
+
+### Matching
+
+When the bidder receives a bid request it must be able to interpret the new data being passed in the bid request and match to any campaigns accordingly.
+
+Using the Grapeshot News segment example again, the bid request received from Bidstram Optimizer for the URL `http://qz.com/805563` would look like this:
+
+```
+{
+	"Grapeshot": {
+		"channels": [
+			{
+			  "name": "gs_news",
+			  "score": 54.300
+			},
+			{
+			  "name": "gs_news_and_weather",
+			  "score": 32.239
+			}
+		]
+	}
+}
+```
 
 ### Bidstream Optimizer
 
