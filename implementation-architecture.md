@@ -14,12 +14,12 @@ Whether you are a DSP or an SSP/Exchange any of these implementations are applic
 <a id="1--cname-dns--recommended-"></a>
 ## 1. CNAME DNS (Recommended)
 
-The following architecture provides the highest level of control and flexibility for the both the client and Authenticated in managing all failover scenarios.
+The following architecture provides the highest level of control and flexibility for the both the customer and Authenticated in managing all failover scenarios.
 
 ![FAILOVER SETUP](https://docs.google.com/drawings/d/1uO5VKL-3CHp3TD25OElKXlbRmnVqkshkwVe7tP5u53c/pub?w=934&h=526)
 
 ### Supply Stream URL
-This should be to a subdomain managed by the client. This should be changed with the supplier if a dedicated URL is not currently being used.
+This should be to a subdomain managed by the customer. This should be changed with the supplier if a dedicated URL is not currently being used.
 
 ```
 [SUPPLIER].[CUSTOMER].com
@@ -27,7 +27,7 @@ This should be to a subdomain managed by the client. This should be changed with
 
 For a standard Optimizer configuration this URL should CNAME to the Authenticated Stream URL.
 
-> In the event of an Authenticated system failure the client can change the CNAME to the Customer Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
+> In the event of an Authenticated system failure the customer can change the CNAME to the Customer Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
 
 ### Bidstream Optimizer URL
 This is the URL the stream should CNAME to. This is to access the Optimizer service.
