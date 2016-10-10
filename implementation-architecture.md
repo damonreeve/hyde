@@ -22,29 +22,29 @@ The following architecture provides the highest level of control and flexibility
 This should be to a subdomain managed by the client. This should be changed with the supplier if a dedicated URL is not currently being used.
 
 ```
-[SUPPLIER].[CLIENT].com
+[SUPPLIER].[CUSTOMER].com
 ```
 
 For a standard Optimizer configuration this URL should CNAME to the Authenticated Stream URL.
 
-> In the event of an Authenticated system failure the client can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
+> In the event of an Authenticated system failure the client can change the CNAME to the Customer Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
 
 ### Bidstream Optimizer URL
 This is the URL the stream should CNAME to. This is to access the Optimizer service.
 
 ```
-[SUPPLIER].[CLIENT].rtb.authenticated.digital
+[SUPPLIER].[CUSTOMER].rtb.authenticated.digital
 ```
 
-Once Optimizer processes a bid request it passes the request on to the Client Bidder URL
+Once Optimizer processes a bid request it passes the request on to the Customer Bidder URL
 
-> In the event of an Authenticated system failure Authenticated can change the CNAME to the Client Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
+> In the event of an Authenticated system failure Authenticated can change the CNAME to the Customer Bidder URL (Option A), or if a failover server is installed then to the Failover Server URL (Option B).
 
-### Client Bidder URL
+### Customer Bidder URL
 This is the URL for the bidder. All optimized streams are forwarded to this URL.
 
 ```
-bidder.[CLIENT].com
+bidder.[CUSTOMER].com
 ```
 
 ### Failover server URL (Optional)
@@ -65,10 +65,10 @@ Changing API endpoints with the supplier is a simpler implementation to making a
 This should be changed to the a URL supplied by Authenticated which will point to the Optimizer service.
 
 ```
-[SUPPLIER].[CLIENT].rtb.authenticated.digital
+[SUPPLIER].[CUSTOMER].rtb.authenticated.digital
 ```
 
-> In the event of an Authenticated system failure the supply stream URL will be changed from the Bidstream Optimizer URL to the Client Bidder URL.
+> In the event of an Authenticated system failure the supply stream URL will be changed from the Bidstream Optimizer URL to the Customer Bidder URL.
 
 <a id="3--side-loading"></a>
 # 3. Side Loading
