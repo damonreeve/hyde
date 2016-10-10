@@ -11,7 +11,7 @@ The purpose of the enrichment service is to provide platforms with a standard in
 
 ## Bidstream Enrichment Workflow
 
-![Data Enrichment Workflow](https://docs.google.com/drawings/d/1CCpxSkW7agj19ZmJq_ZeBhp8kuBTxl1upUfVrQqItfA/pub?w=632&h=422)
+![Data Enrichment Workflow](https://docs.google.com/drawings/d/1CCpxSkW7agj19ZmJq_ZeBhp8kuBTxl1upUfVrQqItfA/pub?w=1020)
 
 ### Bidder
 
@@ -21,6 +21,15 @@ There are two important changes that need to be made to the bidder:
 1. The bidder needs to recognize the data in the bid request when making bids and target accordingly
 
 Bidder modification is outside of the scope of the Optimizer enrichment service. In the docs for specific data partners we've described best practice and examples.
+
+### Bidstream Optimizer
+
+Optimizer performs four primary functions
+
+1. Receives bid requests from suppliers
+1. Calls the enrichment cache to see if there is any data to enrich the bid request with
+1. Enriches the bid request with any data, generally as a new explicitly named data object in the `ext` object of the bid request
+1. Passes the bid request on to the bidder
 
 ### Data Partner
 
@@ -35,14 +44,9 @@ Detail for each of these datasets is provided for each data partner.
 
 This is a layer that sits between Bidstream Optimizer and each data partner. This is used for performance reasons and maintained by Authenticated.
 
-### Bidstream Optimizer
+### Supplier
 
-Optimizer performs four primary functions
-
-1. Receives bid requests from suppliers
-1. Calls the enrichment cache to see if there is any data to enrich the bid request with
-1. Enriches the bid request with any data, generally as a new explicitly named data object in the `ext` object of the bid request
-1. Passes the bid request on to the bidder
+Not really relevant but is the originator of the bid request.
 
 
 ## Architecture built for scale and low latency
