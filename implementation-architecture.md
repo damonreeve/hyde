@@ -48,10 +48,10 @@ bidder.[CUSTOMER].com
 ```
 
 ### Failover server URL (Optional)
-An optional step to protect the bidder from being flooded with requests in the event of Authenticated critical failure, is to install a failover server within the client stack to handle inbound bidstreams and throttle requests passed through to the bidder. This is a simple nginx server that is configured to send a set percentage of requests to the bidder and to ignore the rest. This way traffic will still flow through to the bidder but not the full stream from the supplier. The volume of requests to pass through is a simple server configuration. A repository for the server configuration can be found [here].
+An optional step to protect the bidder from being flooded with requests in the event of Authenticated critical failure, is to install a failover server within the customer stack to handle inbound bidstreams and throttle requests passed through to the bidder. This is a simple nginx server that is configured to send a set percentage of requests to the bidder and to ignore the rest. This way traffic will still flow through to the bidder but not the full stream from the supplier. The volume of requests to pass through is a simple server configuration. A repository for the server configuration can be found [here].
 
 ```
-failover.[CLIENT].com
+failover.[CUSTOMER].com
 ```
 
 <a id="2--change-api-endpoints"></a>
