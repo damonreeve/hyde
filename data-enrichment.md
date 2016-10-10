@@ -5,9 +5,29 @@ title: Data Enrichment
 
 ## Introduction
 
-The Bidstream Optimizer Enrichment API provides an interface for bid requests to be enriched at run-time with external data, to increase the value and targeting options for a bid request. Enriching data can be sourced from 1st party datasets, or can be licensed from 3rd parties, such as DMPs. 
+Bidstream Optimizer provides an interface for bid requests to be enriched at run-time with external data, to increase the value and targeting options for a bid request. Enriching data can be sourced from 1st party datasets, or can be licensed from 3rd parties, such as DMPs. 
 
-The purpose of the Authenticated Enrichment API is to provide platforms with a standard interface for the integration of data and data partners, reducing the upfront resource overhead for integrating a new data partner and reducing the time to market for new product.
+The purpose of the enrichment service is to provide platforms with a standard interface for the integration of data and data partners, reducing the upfront resource overhead for integrating a new data partner and reducing the time to market for new product.
+
+## Bidstream Enrichment Workflow
+
+There are a number of important aspects to bidstream data enrichment.
+
+![Data Enrichment Workflow](https://docs.google.com/drawings/d/1CCpxSkW7agj19ZmJq_ZeBhp8kuBTxl1upUfVrQqItfA/pub?w=632&h=422)
+
+1. A bid request is received by Bidstream Optimizer
+1. A call is made to the enrichment cache to see if there is any data to enrich the bid request with
+1. If there is, the request is enriched with the data, generally as a new explicitly named data object the `ext` object of the bid request
+1. The bidder receives the enriched bid request and uses the new data in matching with any campaigns that used this data partner in any campaign targeting
+
+The bidder must be pre-configured to be able to allow for the data to be used in campaign planning and to recognize the data in the bid request when making bids. This work is outside of the scope of the Optimizer enrichment service. Read more about bidder modifications in specific data partner integration docs.
+
+
+
+DSP integrations for targeting
+
+
+
 
 ## Architecture built for scale and low latency
 
