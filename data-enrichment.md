@@ -11,22 +11,38 @@ The purpose of the enrichment service is to provide platforms with a standard in
 
 ## Bidstream Enrichment Workflow
 
-There are a number of important aspects to bidstream data enrichment.
-
 ![Data Enrichment Workflow](https://docs.google.com/drawings/d/1CCpxSkW7agj19ZmJq_ZeBhp8kuBTxl1upUfVrQqItfA/pub?w=632&h=422)
 
-1. A bid request is received by Bidstream Optimizer
-1. A call is made to the enrichment cache to see if there is any data to enrich the bid request with
-1. If there is, the request is enriched with the data, generally as a new explicitly named data object the `ext` object of the bid request
-1. The bidder receives the enriched bid request and uses the new data in matching with any campaigns that used this data partner in any campaign targeting
+### Bidder
 
-The bidder must be pre-configured to be able to allow for the data to be used in campaign planning and to recognize the data in the bid request when making bids. This work is outside of the scope of the Optimizer enrichment service. Read more about bidder modifications in specific data partner integration docs.
+There are two important changes that need to be made to the bidder:
 
+1. The bidder must be pre-configured to be able to allow for data from a specific data partner to be used in campaign planning
+1. The bidder needs to recognize the data in the bid request when making bids and target accordingly
 
+Bidder modification is outside of the scope of the Optimizer enrichment service. In the docs for specific data partners we've described best practice and examples.
 
-DSP integrations for targeting
+### Data Partner
 
+This is the data source providing the information to enrich the bid request with. Each data partner provides two datasets:
 
+1. A taxonomy of data fields and descriptions that the bidder uses to enable targeting to be setup up
+1. A mapping table that is used at run-time by Bidstream Optimizer to enrich a bid request with specific data when conditions match. This will generally be a database or file that is maintained by the data partner. 
+
+Detail for each of these datasets is provided for each data partner.
+
+### Cache
+
+This is a layer that sits between Bidstream Optimizer and each data partner. This is used for performance reasons and maintained by Authenticated.
+
+### Bidstream Optimizer
+
+Optimizer performs four primary functions
+
+1. Receives bid requests from suppliers
+1. Calls the enrichment cache to see if there is any data to enrich the bid request with
+1. Enriches the bid request with any data, generally as a new explicitly named data object in the `ext` object of the bid request
+1. Passes the bid request on to the bidder
 
 
 ## Architecture built for scale and low latency
