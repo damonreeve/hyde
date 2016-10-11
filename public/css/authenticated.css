@@ -21,6 +21,11 @@ table {
 .sidebar a {
     color: #313739;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 18rem;
+}
 
 @media print
 {    
