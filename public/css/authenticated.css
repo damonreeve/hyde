@@ -17,6 +17,7 @@ table {
     /* background-color: #509be8; */
     color: #313739;
     padding-top: 1rem;
+    padding-bottom: 2rem;
     overflow: auto;
 }
 .sidebar a {
