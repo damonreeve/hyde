@@ -12,7 +12,8 @@ table {
     font-size: 1rem:
 }
 .sidebar {
-    background-color: #343f4f;
+    background-color: #509be8;
+    /* background-color: #343f4f; */
 }
 
 @media print
