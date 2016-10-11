@@ -12,7 +12,7 @@ permalink:        pretty
 # Setup
 title:            Bidstream Optimizer
 tagline:          'Bidstream Optimizer Documentation'
-description:      'Onboarding docs for <a href="https://authenticated.digital" target="_blank">Bidstream Optimizer</a>.'
+description:      'Onboarding docs for <a href="{{ site.baseurl }}">Bidstream Optimizer</a>.'
 url:              https://damonreeve.github.io/optimizer-docs/
 baseurl:          /optimizer-docs/
 
@@ -23,7 +23,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.1.0
 
 github:
   repo:           https://github.com/damonreeve/optimizer-docs/
