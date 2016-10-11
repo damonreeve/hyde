@@ -7,6 +7,10 @@ table {
 .case-study td.l {
     text-align: left;
 }
+.sidebar-nav-item {
+    line-height: 1.4rem;
+    font-size: 1rem:
+}
 
 @media print
 {    
