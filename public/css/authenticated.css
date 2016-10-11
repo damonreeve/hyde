@@ -9,7 +9,7 @@ table {
 }
 .sidebar-nav-item {
     line-height: 1.4rem;
-    font-size: 1rem:
+    font-size: 1rem;
 }
 .sidebar {
     background-color: #f1f1f1;
@@ -25,7 +25,7 @@ table {
 .footer {
     padding-top: 0;
     position: fixed;
-    bottom: 1rem;
+    bottom: 0;
     width: 17rem;
     color: #CCCCCC;
     background-color: #f1f1f1;
