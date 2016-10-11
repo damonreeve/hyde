@@ -20,14 +20,3 @@ Optimizer architecture is separated into run-time Optimizer Nodes that are a sta
 ## Simple Implementation
 
 Optimizer Nodes are generally co-located inside or near a clients data-center to reduce any connectivity latency between the Optimizer service and the Customer Platform. Read more about [Deployment Scenario's](../#deployment-scenarios).
-
-<a id="5-step-run-time-process"></a>
-## 5-Step run-time process
-
-Step | Type | Description | Example
-:--- | :--- | :--- | :---
-Basic Filtering | FILTER | Filters bid requests that match a pre-defined rule | Filter any native request objects as I don't buy native placements
-Quality and Fraud Filtering | ML | Scores bid requests for quality and fraud measures and provides thresholds for filtering | Filter any requests where the probability it is bot traffic is > 90% 
-Commercial Profiling | ML | Predicts the commercial outcome of the request | Filter the request if the probability of winning the the impression is < 10%
-Data Enrichment | ENRICH | Enriches the bid request with additional data for future targeting | If the request is from a UK user enrich the bid request with Grapeshot contextual data
-Throttling | FILTER | Reduces the output bidstream to a fixed value | Throttle the requests from this supplier to 20K QPS
