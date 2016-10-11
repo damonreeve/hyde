@@ -23,6 +23,7 @@ table {
     color: #313739;
 }
 .footer {
+    padding-top: 5rem;
     position: fixed;
     bottom: -1rem;
     width: 17rem;
