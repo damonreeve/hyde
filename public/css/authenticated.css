@@ -17,6 +17,9 @@ table {
     /* background-color: #509be8; */
     color: #313739;
 }
+.sidebar a {
+    color: #313739;
+}
 
 @media print
 {    
