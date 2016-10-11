@@ -25,6 +25,10 @@ table {
     position: fixed;
     bottom: 0;
     width: 18rem;
+    color: #CCCCCC;
+}
+.footer a {
+    color: #CCCCCC;
 }
 
 @media print
