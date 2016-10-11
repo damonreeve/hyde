@@ -11,6 +11,9 @@ table {
     line-height: 1.4rem;
     font-size: 1rem:
 }
+.sidebar {
+    background-color: #343f4f;
+}
 
 @media print
 {    
