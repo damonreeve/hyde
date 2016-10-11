@@ -24,7 +24,7 @@ table {
 }
 .footer {
     position: fixed;
-    bottom: 0;
+    bottom: -1rem;
     width: 17rem;
     color: #CCCCCC;
     background-color: #f1f1f1;
